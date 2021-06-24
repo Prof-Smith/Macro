@@ -1,0 +1,233 @@
+Country,Code,GDP_PCAP
+Burundi,BDI,784.93
+Central African Republic,CAF,986.68
+Malawi,MWI,1106.62
+"Congo, Dem. Rep.",COD,1146.54
+Niger,NER,1278.7
+Mozambique,MOZ,1338.1
+Liberia,LBR,1491
+Chad,TCD,1649.53
+Togo,TGO,1667.3
+Madagascar,MDG,1719.91
+Sierra Leone,SLE,1794.31
+Guinea-Bissau,GNB,2077.4
+Afghanistan,AFG,2156.42
+Burkina Faso,BFA,2274.72
+Uganda,UGA,2284.27
+Ethiopia,ETH,2319.71
+"Gambia, The",GMB,2321.24
+Rwanda,RWA,2325.41
+Kiribati,KIR,2372.45
+Mali,MLI,2424.33
+Low income,LIC,2497.14
+Heavily indebted poor countries (HIPC),HPC,2663.07
+Guinea,GIN,2675.46
+Tanzania,TZA,2770.68
+Solomon Islands,SLB,2780.64
+Lesotho,LSO,2824.09
+Zimbabwe,ZWE,2961.45
+Haiti,HTI,3034.01
+Least developed countries: UN classification,LDC,3129.56
+Comoros,COM,3194.9
+Vanuatu,VUT,3292.54
+Benin,BEN,3432.78
+IDA only,IDX,3462.73
+Tajikistan,TJK,3529.31
+Senegal,SEN,3545.1
+Nepal,NPL,3567.99
+Zambia,ZMB,3624.02
+Pre-demographic dividend,PRE,3657.54
+Timor-Leste,TLS,3709.81
+Cameroon,CMR,3803.46
+"Congo, Rep.",COG,3835.66
+Sub-Saharan Africa (excluding high income),SSA,3901.6
+Sub-Saharan Africa,SSF,3926.79
+Sub-Saharan Africa (IDA & IBRD countries),TSS,3926.79
+IDA total,IDA,3995.89
+Sudan,SDN,4122.53
+Sao Tome and Principe,STP,4145.23
+Tuvalu,TUV,4470.86
+Kenya,KEN,4521.48
+Papua New Guinea,PNG,4547.56
+Cambodia,KHM,4583.02
+Pakistan,PAK,4898.05
+Bangladesh,BGD,4964.09
+Fragile and conflict affected situations,FCS,4982.46
+IDA blend,IDB,5080.12
+Nigeria,NGA,5362.76
+Myanmar,MMR,5369.71
+Mauritania,MRT,5427.06
+Cote d'Ivoire,CIV,5443.22
+Kyrgyz Republic,KGZ,5486.16
+Nicaragua,NIC,5646.4
+Ghana,GHA,5652.15
+Djibouti,DJI,5779.68
+Honduras,HND,5981.45
+West Bank and Gaza,PSE,6495.21
+South Asia,SAS,6499.96
+South Asia (IDA & IBRD),TSA,6499.96
+Tonga,TON,6665.75
+Samoa,WSM,6795.68
+Lower middle income,LMC,6829.83
+Angola,AGO,6965.51
+India,IND,6996.56
+Uzbekistan,UZB,7308.48
+Belize,BLZ,7314.63
+Cabo Verde,CPV,7489.21
+Pacific island small states,PSS,7644.54
+Morocco,MAR,7826.17
+Lao PDR,LAO,8172.73
+Vietnam,VNM,8397.02
+Eswatini,SWZ,9003.36
+Guatemala,GTM,9019.69
+Bolivia,BOL,9110.56
+El Salvador,SLV,9164.35
+Philippines,PHL,9302.39
+Early-demographic dividend,EAR,9693.77
+Namibia,NAM,10063.65
+Jamaica,JAM,10193.47
+Jordan,JOR,10517.07
+Low & middle income,LMY,11088.05
+Middle East & North Africa (excluding high income),MNA,11123.53
+Middle East & North Africa (IDA & IBRD countries),TMN,11179.26
+Tunisia,TUN,11231.57
+Iraq,IRQ,11362.69
+IDA & IBRD total,IBT,11391.25
+Ecuador,ECU,11878.72
+Kosovo,XKX,11906.43
+Algeria,DZA,12019.93
+Nauru,NRU,12095.3
+Middle income,MIC,12097.89
+"Egypt, Arab Rep.",EGY,12283.81
+Indonesia,IDN,12334.92
+Bhutan,BTN,12355.79
+Dominica,DMA,12444.44
+Mongolia,MNG,12861.84
+"Iran, Islamic Rep.",IRN,12937.48
+South Africa,ZAF,13034.17
+St. Vincent and the Grenadines,VCT,13037.68
+Paraguay,PRY,13246.46
+Ukraine,UKR,13341.21
+Peru,PER,13416.44
+Moldova,MDA,13598.26
+Sri Lanka,LKA,13656.84
+Guyana,GUY,13661.28
+IBRD only,IBD,13976.27
+Albania,ALB,14224.1
+Armenia,ARM,14257.96
+Fiji,FJI,14289.96
+Azerbaijan,AZE,15039.81
+East Asia & Pacific (excluding high income),EAP,15054.78
+Lebanon,LBN,15195.53
+East Asia & Pacific (IDA & IBRD countries),TEA,15212.8
+Arab World,ARB,15256.34
+Brazil,BRA,15299.99
+Gabon,GAB,15611.65
+Colombia,COL,15630.08
+Georgia,GEO,15656.6
+Bosnia and Herzegovina,BIH,15817.16
+Libya,LBY,15845.66
+St. Lucia,LCA,16132.41
+Latin America & Caribbean (excluding high income),LAC,16290.02
+Barbados,BRB,16330.89
+Caribbean small states,CSS,16550.86
+China,CHN,16804.43
+Latin America & the Caribbean (IDA & IBRD countries),TLA,16839.74
+Latin America & Caribbean,LCN,16900.79
+Middle East & North Africa,MEA,17036.65
+Suriname,SUR,17256.02
+Upper middle income,UMC,17455.91
+North Macedonia,MKD,17583.44
+World,WLD,17633.47
+Grenada,GRD,17792.91
+Late-demographic dividend,LTE,18252.45
+Palau,PLW,18357.4
+East Asia & Pacific,EAS,18400.41
+Botswana,BWA,18552.75
+Serbia,SRB,18929.91
+Dominican Republic,DOM,19227.72
+Thailand,THA,19276.9
+Equatorial Guinea,GNQ,19379.24
+Belarus,BLR,20101.12
+Maldives,MDV,20395.49
+Mexico,MEX,20447.89
+Costa Rica,CRI,21059.92
+Small states,SST,21485.54
+Uruguay,URY,22515.19
+Europe & Central Asia (excluding high income),ECA,22573.8
+Antigua and Barbuda,ATG,22879.77
+Argentina,ARG,23040.29
+Montenegro,MNE,23343.99
+Other small states,OSS,23754.39
+Mauritius,MUS,23882.35
+Europe & Central Asia (IDA & IBRD countries),TEC,24008.59
+Bulgaria,BGR,24579.12
+Curacao,CUW,25578.28
+Chile,CHL,26247.38
+Turkey,TUR,27318.43
+Trinidad and Tobago,TTO,27334.18
+Kazakhstan,KAZ,27517.94
+St. Kitts and Nevis,KNA,27608.13
+Oman,OMN,28507.48
+Russian Federation,RUS,29181.36
+Malaysia,MYS,29619.69
+Croatia,HRV,30246.05
+Seychelles,SYC,30516.68
+Turks and Caicos Islands,TCA,30547.91
+Greece,GRC,31562.59
+Latvia,LVA,32047.35
+Romania,ROU,32358.33
+Slovak Republic,SVK,32544.96
+Panama,PAN,32850.82
+Hungary,HUN,33949.63
+Central Europe and the Baltics,CEB,34113.57
+Poland,POL,34151.79
+Puerto Rico,PRI,36045.1
+Portugal,PRT,36760.12
+Europe & Central Asia,ECS,36790.01
+"Bahamas, The",BHS,38742.55
+Lithuania,LTU,38756.11
+Estonia,EST,38819.34
+Slovenia,SVN,41193.84
+Cyprus,CYP,41254.4
+Israel,ISR,41947.59
+Spain,ESP,42185.59
+Japan,JPN,42338.03
+"Korea, Rep.",KOR,42727.95
+Czech Republic,CZE,43004.53
+New Zealand,NZL,43810.87
+Italy,ITA,44395.11
+Malta,MLT,46071.33
+OECD members,OED,46331.58
+European Union,EUU,46442.78
+Bahrain,BHR,47002.55
+United Kingdom,GBR,48484.27
+Saudi Arabia,SAU,49040.34
+Euro area,EMU,49207.83
+France,FRA,49519.3
+Canada,CAN,50510.75
+Post-demographic dividend,PST,51004.71
+Finland,FIN,51619.83
+High income,HIC,51920.85
+Kuwait,KWT,52059.72
+Australia,AUS,52203.13
+Belgium,BEL,54628.1
+Sweden,SWE,55027.37
+Germany,DEU,55891.2
+Iceland,ISL,58512.65
+Austria,AUT,58649.67
+Netherlands,NLD,59469.08
+Denmark,DNK,60334.81
+"Hong Kong SAR, China",HKG,62495.96
+North America,NAC,63781.77
+Brunei Darussalam,BRN,64847.65
+United States,USA,65297.52
+Norway,NOR,67978.72
+United Arab Emirates,ARE,70089.32
+Switzerland,CHE,70276.55
+Bermuda,BMU,85272.21
+Ireland,IRL,87217.35
+Qatar,QAT,94028.6
+Singapore,SGP,101649.07
+Luxembourg,LUX,120962.19
+"Macao SAR, China",MAC,129451.06
