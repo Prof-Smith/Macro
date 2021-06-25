@@ -1,0 +1,219 @@
+Country,Code,Unemployment,PCAP_Inc,Region,Sub_Region
+Burundi,BDI,0.8,784.93,Africa,Sub-Saharan Africa
+Central African Republic,CAF,4.33,986.68,Africa,Sub-Saharan Africa
+Malawi,MWI,5.99,1106.62,Africa,Sub-Saharan Africa
+"Congo, Dem. Rep.",COD,4.55,1146.54,Africa,Sub-Saharan Africa
+Niger,NER,0.69,1278.7,Africa,Sub-Saharan Africa
+Mozambique,MOZ,3.39,1338.1,Africa,Sub-Saharan Africa
+Liberia,LBR,3.3,1491,Africa,Sub-Saharan Africa
+Chad,TCD,2.26,1649.53,Africa,Sub-Saharan Africa
+Togo,TGO,4.05,1667.3,Africa,Sub-Saharan Africa
+Madagascar,MDG,1.92,1719.91,Africa,Sub-Saharan Africa
+Sierra Leone,SLE,4.6,1794.31,Africa,Sub-Saharan Africa
+Guinea-Bissau,GNB,3.16,2077.4,Africa,Sub-Saharan Africa
+Burkina Faso,BFA,4.96,2274.72,Africa,Sub-Saharan Africa
+Uganda,UGA,2.44,2284.27,Africa,Sub-Saharan Africa
+Ethiopia,ETH,2.79,2319.71,Africa,Sub-Saharan Africa
+"Gambia, The",GMB,9.64,2321.24,Africa,Sub-Saharan Africa
+Rwanda,RWA,1.35,2325.41,Africa,Sub-Saharan Africa
+Mali,MLI,7.5,2424.33,Africa,Sub-Saharan Africa
+Low income,LIC,5.3,2497.14,Americas,Latin America and the Caribbean
+Heavily indebted poor countries (HIPC),HPC,4.94,2663.07,Americas,Latin America and the Caribbean
+Guinea,GIN,4.35,2675.46,Africa,Sub-Saharan Africa
+Tanzania,TZA,2.16,2770.68,Africa,Sub-Saharan Africa
+Solomon Islands,SLB,0.79,2780.64,Oceania,Melanesia
+Lesotho,LSO,24.65,2824.09,Africa,Sub-Saharan Africa
+Zimbabwe,ZWE,5.73,2961.45,Africa,Sub-Saharan Africa
+Haiti,HTI,14.5,3034.01,Americas,Latin America and the Caribbean
+Least developed countries: UN classification,LDC,5.01,3129.56,Americas,Latin America and the Caribbean
+Comoros,COM,8.43,3194.9,Africa,Sub-Saharan Africa
+Vanuatu,VUT,1.95,3292.54,Oceania,Melanesia
+Benin,BEN,2.54,3432.78,Africa,Sub-Saharan Africa
+IDA only,IDX,5.02,3462.73,Asia,South-eastern Asia
+Tajikistan,TJK,7.5,3529.31,Asia,Central Asia
+Senegal,SEN,7.1,3545.1,Africa,Sub-Saharan Africa
+Nepal,NPL,4.44,3567.99,Asia,Southern Asia
+Zambia,ZMB,12.17,3624.02,Africa,Sub-Saharan Africa
+Pre-demographic dividend,PRE,6.21,3657.54,Europe,Eastern Europe
+Timor-Leste,TLS,5.06,3709.81,Asia,South-eastern Asia
+Cameroon,CMR,3.62,3803.46,Africa,Sub-Saharan Africa
+"Congo, Rep.",COG,10.27,3835.66,Africa,Sub-Saharan Africa
+Sub-Saharan Africa (excluding high income),SSA,6.63,3901.6,Europe,Southern Europe
+Sub-Saharan Africa,SSF,6.63,3926.79,Africa,Sub-Saharan Africa
+Sub-Saharan Africa (IDA & IBRD countries),TSS,6.63,3926.79,Oceania,Polynesia
+IDA total,IDA,5.31,3995.89,Europe,Eastern Europe
+Sudan,SDN,17.71,4122.53,Africa,Northern Africa
+Sao Tome and Principe,STP,13.86,4145.23,Africa,Sub-Saharan Africa
+Kenya,KEN,2.98,4521.48,Africa,Sub-Saharan Africa
+Papua New Guinea,PNG,2.74,4547.56,Oceania,Melanesia
+Cambodia,KHM,0.31,4583.02,Asia,South-eastern Asia
+Pakistan,PAK,4.65,4898.05,Asia,Southern Asia
+Bangladesh,BGD,5.3,4964.09,Asia,Southern Asia
+Fragile and conflict affected situations,FCS,7.51,4982.46,Africa,Sub-Saharan Africa
+IDA blend,IDB,5.96,5080.12,Europe,Eastern Europe
+Nigeria,NGA,9.01,5362.76,Africa,Sub-Saharan Africa
+Myanmar,MMR,1.79,5369.71,Asia,South-eastern Asia
+Mauritania,MRT,10.66,5427.06,Africa,Sub-Saharan Africa
+Cote d'Ivoire,CIV,3.5,5443.22,Africa,Sub-Saharan Africa
+Kyrgyz Republic,KGZ,7.89,5486.16,Asia,Central Asia
+Nicaragua,NIC,5.82,5646.4,Americas,Latin America and the Caribbean
+Ghana,GHA,4.53,5652.15,Africa,Sub-Saharan Africa
+Djibouti,DJI,11.57,5779.68,Africa,Sub-Saharan Africa
+Honduras,HND,9.39,5981.45,Americas,Latin America and the Caribbean
+West Bank and Gaza,PSE,27.35,6495.21,Asia,Western Asia
+South Asia,SAS,6.63,6499.96,Africa,Sub-Saharan Africa
+South Asia (IDA & IBRD),TSA,6.63,6499.96,Oceania,Polynesia
+Tonga,TON,4.37,6665.75,Oceania,Polynesia
+Samoa,WSM,8.87,6795.68,Oceania,Polynesia
+Lower middle income,LMC,6.27,6829.83,Asia,Southern Asia
+Angola,AGO,7.7,6965.51,Africa,Sub-Saharan Africa
+India,IND,7.11,6996.56,Asia,Southern Asia
+Uzbekistan,UZB,5.97,7308.48,Asia,Central Asia
+Belize,BLZ,7.82,7314.63,Americas,Latin America and the Caribbean
+Cabo Verde,CPV,13.41,7489.21,Africa,Sub-Saharan Africa
+Pacific island small states,PSS,3.11,7644.54,Asia,Western Asia
+Morocco,MAR,10.15,7826.17,Africa,Northern Africa
+Lao PDR,LAO,0.95,8172.73,Asia,South-eastern Asia
+Vietnam,VNM,2.27,8397.02,Asia,South-eastern Asia
+Eswatini,SWZ,23.4,9003.36,Africa,Sub-Saharan Africa
+Guatemala,GTM,4.65,9019.69,Americas,Latin America and the Caribbean
+Bolivia,BOL,5.61,9110.56,Americas,Latin America and the Caribbean
+El Salvador,SLV,6.98,9164.35,Americas,Latin America and the Caribbean
+Philippines,PHL,3.36,9302.39,Asia,South-eastern Asia
+Early-demographic dividend,EAR,6.86,9693.77,Africa,Northern Africa
+Namibia,NAM,20.35,10063.65,Africa,Sub-Saharan Africa
+Jamaica,JAM,8.4,10193.47,Americas,Latin America and the Caribbean
+Jordan,JOR,18.5,10517.07,Asia,Western Asia
+Low & middle income,LMY,6.4,11088.05,Asia,Southern Asia
+Middle East & North Africa (excluding high income),MNA,11.9,11123.53,Asia,South-eastern Asia
+Middle East & North Africa (IDA & IBRD countries),TMN,11.73,11179.26,Asia,South-eastern Asia
+Tunisia,TUN,16.69,11231.57,Africa,Northern Africa
+Iraq,IRQ,13.74,11362.69,Asia,Western Asia
+IDA & IBRD total,IBT,6.41,11391.25,Europe,Eastern Europe
+Ecuador,ECU,6.23,11878.72,Americas,Latin America and the Caribbean
+Algeria,DZA,12.83,12019.93,Africa,Northern Africa
+Middle income,MIC,6.51,12097.89,Oceania,Micronesia
+"Egypt, Arab Rep.",EGY,10.45,12283.81,Africa,Northern Africa
+Indonesia,IDN,4.11,12334.92,Asia,South-eastern Asia
+Bhutan,BTN,3.74,12355.79,Asia,Southern Asia
+Mongolia,MNG,4.33,12861.84,Asia,Eastern Asia
+"Iran, Islamic Rep.",IRN,10.96,12937.48,Asia,Southern Asia
+South Africa,ZAF,28.74,13034.17,Africa,Sub-Saharan Africa
+St. Vincent and the Grenadines,VCT,20.27,13037.68,Americas,Latin America and the Caribbean
+Paraguay,PRY,7.61,13246.46,Americas,Latin America and the Caribbean
+Ukraine,UKR,9.48,13341.21,Europe,Eastern Europe
+Peru,PER,6.24,13416.44,Americas,Latin America and the Caribbean
+Moldova,MDA,4.71,13598.26,Europe,Eastern Europe
+Sri Lanka,LKA,4.84,13656.84,Asia,Southern Asia
+Guyana,GUY,15.82,13661.28,Americas,Latin America and the Caribbean
+IBRD only,IBD,6.75,13976.27,Europe,Eastern Europe
+Albania,ALB,11.7,14224.1,Europe,Southern Europe
+Armenia,ARM,20.21,14257.96,Asia,Western Asia
+Fiji,FJI,4.79,14289.96,Oceania,Melanesia
+Azerbaijan,AZE,6.27,15039.81,Asia,Western Asia
+East Asia & Pacific (excluding high income),EAP,4.39,15054.78,Africa,Northern Africa
+Lebanon,LBN,6.61,15195.53,Asia,Western Asia
+East Asia & Pacific (IDA & IBRD countries),TEA,4.41,15212.8,Africa,Sub-Saharan Africa
+Arab World,ARB,11.48,15256.34,Europe,Southern Europe
+Brazil,BRA,13.67,15299.99,Americas,Latin America and the Caribbean
+Gabon,GAB,20.47,15611.65,Africa,Sub-Saharan Africa
+Colombia,COL,15.44,15630.08,Americas,Latin America and the Caribbean
+Georgia,GEO,12.05,15656.6,Asia,Western Asia
+Bosnia and Herzegovina,BIH,16.85,15817.16,Europe,Southern Europe
+Libya,LBY,19.39,15845.66,Africa,Northern Africa
+St. Lucia,LCA,17.13,16132.41,Americas,Latin America and the Caribbean
+Latin America & Caribbean (excluding high income),LAC,10.23,16290.02,Asia,Western Asia
+Barbados,BRB,12.79,16330.89,Americas,Latin America and the Caribbean
+Caribbean small states,CSS,9.8,16550.86,Americas,Latin America and the Caribbean
+China,CHN,5,16804.43,Asia,Eastern Asia
+Latin America & the Caribbean (IDA & IBRD countries),TLA,10.38,16839.74,Asia,Central Asia
+Latin America & Caribbean,LCN,10.28,16900.79,Americas,Latin America and the Caribbean
+Middle East & North Africa,MEA,10.64,17036.65,Asia,Southern Asia
+Suriname,SUR,8.65,17256.02,Americas,Latin America and the Caribbean
+Upper middle income,UMC,6.7,17455.91,Europe,Eastern Europe
+North Macedonia,MKD,18.4,17583.44,Europe,Southern Europe
+World,WLD,6.47,17633.47,Oceania,Melanesia
+Late-demographic dividend,LTE,5.93,18252.45,Africa,Sub-Saharan Africa
+East Asia & Pacific,EAS,4.34,18400.41,Africa,Northern Africa
+Botswana,BWA,17.7,18552.75,Africa,Sub-Saharan Africa
+Serbia,SRB,9.08,18929.91,Europe,Southern Europe
+Dominican Republic,DOM,8.9,19227.72,Americas,Latin America and the Caribbean
+Thailand,THA,1.02,19276.9,Asia,South-eastern Asia
+Equatorial Guinea,GNQ,9.15,19379.24,Africa,Sub-Saharan Africa
+Belarus,BLR,5.28,20101.12,Europe,Eastern Europe
+Maldives,MDV,7.18,20395.49,Asia,Southern Asia
+Mexico,MEX,4.71,20447.89,Americas,Latin America and the Caribbean
+Costa Rica,CRI,17.08,21059.92,Americas,Latin America and the Caribbean
+Small states,SST,9.99,21485.54,Africa,Sub-Saharan Africa
+Uruguay,URY,12.67,22515.19,Americas,Latin America and the Caribbean
+Europe & Central Asia (excluding high income),ECA,8.12,22573.8,Africa,Northern Africa
+Argentina,ARG,11.67,23040.29,Americas,Latin America and the Caribbean
+Montenegro,MNE,15.86,23343.99,Europe,Southern Europe
+Other small states,OSS,10.47,23754.39,Asia,Western Asia
+Mauritius,MUS,7.11,23882.35,Africa,Sub-Saharan Africa
+Europe & Central Asia (IDA & IBRD countries),TEC,7.57,24008.59,Africa,Sub-Saharan Africa
+Bulgaria,BGR,5.71,24579.12,Europe,Eastern Europe
+Chile,CHL,11.51,26247.38,Americas,Latin America and the Caribbean
+Turkey,TUR,13.92,27318.43,Asia,Western Asia
+Trinidad and Tobago,TTO,6.74,27334.18,Americas,Latin America and the Caribbean
+Kazakhstan,KAZ,6.05,27517.94,Asia,Central Asia
+Oman,OMN,4.97,28507.48,Asia,Western Asia
+Russian Federation,RUS,5.73,29181.36,Europe,Eastern Europe
+Malaysia,MYS,4.55,29619.69,Asia,South-eastern Asia
+Croatia,HRV,7.2,30246.05,Europe,Southern Europe
+Greece,GRC,16.85,31562.59,Europe,Southern Europe
+Latvia,LVA,8.19,32047.35,Europe,Northern Europe
+Romania,ROU,4.84,32358.33,Europe,Eastern Europe
+Slovak Republic,SVK,6.79,32544.96,Europe,Eastern Europe
+Panama,PAN,10.23,32850.82,Americas,Latin America and the Caribbean
+Hungary,HUN,4.35,33949.63,Europe,Eastern Europe
+Central Europe and the Baltics,CEB,4.56,34113.57,Oceania,Australia and New Zealand
+Poland,POL,3.55,34151.79,Europe,Eastern Europe
+Puerto Rico,PRI,11.17,36045.1,Americas,Latin America and the Caribbean
+Portugal,PRT,7.2,36760.12,Europe,Southern Europe
+Europe & Central Asia,ECS,7.41,36790.01,Africa,Northern Africa
+"Bahamas, The",BHS,14.41,38742.55,Americas,Latin America and the Caribbean
+Lithuania,LTU,8.43,38756.11,Europe,Northern Europe
+Estonia,EST,6.46,38819.34,Europe,Northern Europe
+Slovenia,SVN,5.17,41193.84,Europe,Southern Europe
+Cyprus,CYP,7.21,41254.4,Asia,Western Asia
+Israel,ISR,4.61,41947.59,Asia,Western Asia
+Spain,ESP,15.67,42185.59,Europe,Southern Europe
+Japan,JPN,2.97,42338.03,Asia,Eastern Asia
+"Korea, Rep.",KOR,4.07,42727.95,Asia,Eastern Asia
+Czech Republic,CZE,2.94,43004.53,Europe,Eastern Europe
+New Zealand,NZL,4.55,43810.87,Oceania,Australia and New Zealand
+Italy,ITA,9.31,44395.11,Europe,Southern Europe
+Malta,MLT,4.09,46071.33,Europe,Southern Europe
+OECD members,OED,7.34,46331.58,Oceania,Australia and New Zealand
+European Union,EUU,7.37,46442.78,Africa,Sub-Saharan Africa
+Bahrain,BHR,4.09,47002.55,Asia,Western Asia
+United Kingdom,GBR,4.34,48484.27,Europe,Northern Europe
+Saudi Arabia,SAU,8.22,49040.34,Asia,Western Asia
+Euro area,EMU,8.2,49207.83,Africa,Northern Africa
+France,FRA,8.62,49519.3,Europe,Western Europe
+Canada,CAN,9.48,50510.75,Americas,Northern America
+Post-demographic dividend,PST,6.96,51004.71,Asia,Western Asia
+Finland,FIN,7.83,51619.83,Europe,Northern Europe
+High income,HIC,6.79,51920.85,Americas,Latin America and the Caribbean
+Kuwait,KWT,6.79,52059.72,Asia,Western Asia
+Australia,AUS,6.61,52203.13,Oceania,Australia and New Zealand
+Belgium,BEL,6.01,54628.1,Europe,Western Europe
+Sweden,SWE,8.45,55027.37,Europe,Northern Europe
+Germany,DEU,4.31,55891.2,Europe,Western Europe
+Iceland,ISL,5.01,58512.65,Europe,Northern Europe
+Austria,AUT,5.77,58649.67,Europe,Western Europe
+Netherlands,NLD,4.09,59469.08,Europe,Western Europe
+Denmark,DNK,5.66,60334.81,Europe,Northern Europe
+"Hong Kong SAR, China",HKG,5.8,62495.96,Asia,Eastern Asia
+North America,NAC,8.44,63781.77,Africa,Sub-Saharan Africa
+Brunei Darussalam,BRN,8.37,64847.65,Asia,South-eastern Asia
+United States,USA,8.31,65297.52,Americas,Northern America
+Norway,NOR,4.62,67978.72,Europe,Northern Europe
+United Arab Emirates,ARE,5,70089.32,Asia,Western Asia
+Switzerland,CHE,4.94,70276.55,Europe,Western Europe
+Ireland,IRL,5.92,87217.35,Europe,Northern Europe
+Qatar,QAT,3.45,94028.6,Asia,Western Asia
+Singapore,SGP,5.19,101649.07,Asia,South-eastern Asia
+Luxembourg,LUX,6.96,120962.19,Europe,Western Europe
+"Macao SAR, China",MAC,2.5,129451.06,Asia,Eastern Asia
