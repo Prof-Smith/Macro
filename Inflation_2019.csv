@@ -1,0 +1,169 @@
+Country,Code,Inflation,Region,Sub_Region
+Burkina Faso,BFA,-3.23,Africa,Sub-Saharan Africa
+Niger,NER,-2.49,Africa,Sub-Saharan Africa
+Saudi Arabia,SAU,-2.09,Asia,Western Asia
+United Arab Emirates,ARE,-1.93,Asia,Western Asia
+Kiribati,KIR,-1.88,Oceania,Micronesia
+Mali,MLI,-1.66,Africa,Sub-Saharan Africa
+Cote d'Ivoire,CIV,-1.11,Africa,Sub-Saharan Africa
+Chad,TCD,-0.97,Africa,Sub-Saharan Africa
+Benin,BEN,-0.71,Africa,Sub-Saharan Africa
+Burundi,BDI,-0.69,Africa,Sub-Saharan Africa
+Qatar,QAT,-0.67,Asia,Western Asia
+Brunei Darussalam,BRN,-0.39,Asia,South-eastern Asia
+Panama,PAN,-0.36,Americas,Latin America and the Caribbean
+St. Kitts and Nevis,KNA,-0.33,Americas,Latin America and the Caribbean
+Iraq,IRQ,-0.2,Asia,Western Asia
+El Salvador,SLV,0.08,Americas,Latin America and the Caribbean
+Oman,OMN,0.13,Asia,Western Asia
+Maldives,MDV,0.22,Asia,Southern Asia
+Guinea-Bissau,GNB,0.25,Africa,Sub-Saharan Africa
+Cyprus,CYP,0.25,Asia,Western Asia
+Greece,GRC,0.25,Europe,Southern Europe
+Ecuador,ECU,0.27,Americas,Latin America and the Caribbean
+Morocco,MAR,0.3,Africa,Northern Africa
+Portugal,PRT,0.34,Europe,Southern Europe
+Montenegro,MNE,0.36,Europe,Southern Europe
+Switzerland,CHE,0.36,Europe,Western Europe
+"Korea, Rep.",KOR,0.38,Asia,Eastern Asia
+Mauritius,MUS,0.41,Africa,Sub-Saharan Africa
+Japan,JPN,0.48,Asia,Eastern Asia
+St. Lucia,LCA,0.54,Americas,Latin America and the Caribbean
+Bosnia and Herzegovina,BIH,0.56,Europe,Southern Europe
+Singapore,SGP,0.57,Asia,South-eastern Asia
+Grenada,GRD,0.6,Americas,Latin America and the Caribbean
+Italy,ITA,0.61,Europe,Southern Europe
+Malaysia,MYS,0.66,Asia,South-eastern Asia
+Togo,TGO,0.69,Africa,Sub-Saharan Africa
+Spain,ESP,0.7,Europe,Southern Europe
+Thailand,THA,0.71,Asia,South-eastern Asia
+Denmark,DNK,0.76,Europe,Northern Europe
+Jordan,JOR,0.76,Asia,Western Asia
+North Macedonia,MKD,0.77,Europe,Southern Europe
+Croatia,HRV,0.77,Europe,Southern Europe
+Israel,ISR,0.84,Asia,Western Asia
+St. Vincent and the Grenadines,VCT,0.91,Americas,Latin America and the Caribbean
+Ireland,IRL,0.94,Europe,Northern Europe
+Timor-Leste,TLS,0.96,Asia,South-eastern Asia
+Samoa,WSM,0.98,Oceania,Polynesia
+Trinidad and Tobago,TTO,1,Americas,Latin America and the Caribbean
+Bahrain,BHR,1.01,Asia,Western Asia
+Arab World,ARB,1.09,Europe,Southern Europe
+Kuwait,KWT,1.09,Asia,Western Asia
+Cabo Verde,CPV,1.11,Africa,Sub-Saharan Africa
+France,FRA,1.11,Europe,Western Europe
+Kyrgyz Republic,KGZ,1.13,Asia,Central Asia
+Equatorial Guinea,GNQ,1.24,Africa,Sub-Saharan Africa
+Albania,ALB,1.41,Europe,Southern Europe
+Antigua and Barbuda,ATG,1.43,Americas,Latin America and the Caribbean
+Belgium,BEL,1.44,Europe,Western Europe
+Armenia,ARM,1.44,Asia,Western Asia
+Germany,DEU,1.45,Europe,Western Europe
+Dominica,DMA,1.5,Americas,Latin America and the Caribbean
+Austria,AUT,1.53,Europe,Western Europe
+Australia,AUS,1.61,Oceania,Australia and New Zealand
+New Zealand,NZL,1.62,Oceania,Australia and New Zealand
+Slovenia,SVN,1.63,Europe,Southern Europe
+Solomon Islands,SLB,1.63,Oceania,Melanesia
+Malta,MLT,1.64,Europe,Southern Europe
+United Kingdom,GBR,1.74,Europe,Northern Europe
+Luxembourg,LUX,1.74,Europe,Western Europe
+Senegal,SEN,1.76,Africa,Sub-Saharan Africa
+Sweden,SWE,1.78,Europe,Northern Europe
+Seychelles,SYC,1.81,Africa,Sub-Saharan Africa
+Dominican Republic,DOM,1.81,Americas,Latin America and the Caribbean
+United States,USA,1.81,Americas,Northern America
+Bolivia,BOL,1.84,Americas,Latin America and the Caribbean
+Serbia,SRB,1.85,Europe,Southern Europe
+North America,NAC,1.88,Africa,Sub-Saharan Africa
+Canada,CAN,1.95,Americas,Northern America
+Algeria,DZA,1.95,Africa,Northern Africa
+Gabon,GAB,2.03,Africa,Sub-Saharan Africa
+Guyana,GUY,2.09,Americas,Latin America and the Caribbean
+Costa Rica,CRI,2.1,Americas,Latin America and the Caribbean
+Peru,PER,2.14,Americas,Latin America and the Caribbean
+World,WLD,2.15,Oceania,Melanesia
+Norway,NOR,2.17,Europe,Northern Europe
+"Congo, Rep.",COG,2.21,Africa,Sub-Saharan Africa
+Poland,POL,2.23,Europe,Eastern Europe
+Estonia,EST,2.28,Europe,Northern Europe
+Mauritania,MRT,2.3,Africa,Sub-Saharan Africa
+Afghanistan,AFG,2.3,Asia,Southern Asia
+Lithuania,LTU,2.33,Europe,Northern Europe
+Cameroon,CMR,2.45,Africa,Sub-Saharan Africa
+Philippines,PHL,2.48,Asia,South-eastern Asia
+"Bahamas, The",BHS,2.49,Americas,Latin America and the Caribbean
+Chile,CHL,2.56,Americas,Latin America and the Caribbean
+IBRD only,IBD,2.6,Europe,Eastern Europe
+Eswatini,SWZ,2.6,Africa,Sub-Saharan Africa
+Azerbaijan,AZE,2.61,Asia,Western Asia
+Curacao,CUW,2.62,Americas,Latin America and the Caribbean
+Netherlands,NLD,2.63,Europe,Western Europe
+Slovak Republic,SVK,2.66,Europe,Eastern Europe
+Kosovo,XKX,2.68,Oceania,Polynesia
+Central African Republic,CAF,2.69,Africa,Sub-Saharan Africa
+IDA total,IDA,2.71,Europe,Eastern Europe
+Bhutan,BTN,2.73,Asia,Southern Asia
+Paraguay,PRY,2.76,Americas,Latin America and the Caribbean
+Vanuatu,VUT,2.76,Oceania,Melanesia
+Botswana,BWA,2.77,Africa,Sub-Saharan Africa
+Mozambique,MOZ,2.78,Africa,Sub-Saharan Africa
+Vietnam,VNM,2.8,Asia,South-eastern Asia
+Latvia,LVA,2.81,Europe,Northern Europe
+Czech Republic,CZE,2.85,Europe,Eastern Europe
+"Hong Kong SAR, China",HKG,2.86,Asia,Eastern Asia
+Uganda,UGA,2.87,Africa,Sub-Saharan Africa
+China,CHN,2.9,Asia,Eastern Asia
+Lebanon,LBN,3.01,Asia,Western Asia
+Iceland,ISL,3.01,Europe,Northern Europe
+Bulgaria,BGR,3.1,Europe,Eastern Europe
+Djibouti,DJI,3.32,Africa,Sub-Saharan Africa
+Lao PDR,LAO,3.32,Asia,South-eastern Asia
+Hungary,HUN,3.34,Europe,Eastern Europe
+Tanzania,TZA,3.46,Africa,Sub-Saharan Africa
+Colombia,COL,3.53,Americas,Latin America and the Caribbean
+Sri Lanka,LKA,3.53,Asia,Southern Asia
+Mexico,MEX,3.64,Americas,Latin America and the Caribbean
+Papua New Guinea,PNG,3.64,Oceania,Melanesia
+Guatemala,GTM,3.7,Americas,Latin America and the Caribbean
+Namibia,NAM,3.72,Africa,Sub-Saharan Africa
+India,IND,3.72,Asia,Southern Asia
+Brazil,BRA,3.73,Americas,Latin America and the Caribbean
+Romania,ROU,3.83,Europe,Eastern Europe
+Jamaica,JAM,3.91,Americas,Latin America and the Caribbean
+Barbados,BRB,4.1,Americas,Latin America and the Caribbean
+South Africa,ZAF,4.12,Africa,Sub-Saharan Africa
+Aruba,ABW,4.26,Americas,Latin America and the Caribbean
+Honduras,HND,4.37,Americas,Latin America and the Caribbean
+Russian Federation,RUS,4.47,Europe,Eastern Europe
+Moldova,MDA,4.84,Europe,Eastern Europe
+Georgia,GEO,4.85,Asia,Western Asia
+Lesotho,LSO,5.19,Africa,Sub-Saharan Africa
+Kenya,KEN,5.24,Africa,Sub-Saharan Africa
+Kazakhstan,KAZ,5.25,Asia,Central Asia
+Nicaragua,NIC,5.38,Americas,Latin America and the Caribbean
+Nepal,NPL,5.57,Asia,Southern Asia
+Bangladesh,BGD,5.59,Asia,Southern Asia
+Belarus,BLR,5.6,Europe,Eastern Europe
+Madagascar,MDG,5.61,Africa,Sub-Saharan Africa
+Tunisia,TUN,6.72,Africa,Northern Africa
+"Gambia, The",GMB,7.12,Africa,Sub-Saharan Africa
+Ghana,GHA,7.18,Africa,Sub-Saharan Africa
+Mongolia,MNG,7.3,Asia,Eastern Asia
+Uruguay,URY,7.88,Americas,Latin America and the Caribbean
+Ukraine,UKR,7.89,Europe,Eastern Europe
+Myanmar,MMR,8.83,Asia,South-eastern Asia
+Zambia,ZMB,9.15,Africa,Sub-Saharan Africa
+"Egypt, Arab Rep.",EGY,9.15,Africa,Northern Africa
+Malawi,MWI,9.37,Africa,Sub-Saharan Africa
+Guinea,GIN,9.47,Africa,Sub-Saharan Africa
+Pakistan,PAK,10.58,Asia,Southern Asia
+Nigeria,NGA,11.4,Africa,Sub-Saharan Africa
+Sierra Leone,SLE,14.8,Africa,Sub-Saharan Africa
+Turkey,TUR,15.18,Asia,Western Asia
+Ethiopia,ETH,15.84,Africa,Sub-Saharan Africa
+Angola,AGO,17.08,Africa,Sub-Saharan Africa
+Haiti,HTI,18.7,Americas,Latin America and the Caribbean
+"Iran, Islamic Rep.",IRN,39.91,Asia,Southern Asia
+Sudan,SDN,50.99,Africa,Northern Africa
+South Sudan,SSD,87.24,Africa,Sub-Saharan Africa
