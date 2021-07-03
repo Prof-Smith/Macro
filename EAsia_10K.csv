@@ -1,0 +1,301 @@
+Country,Country Code,Region,Year,PCAP,Population,Life_Exp
+Australia,AUS,East Asia & Pacific,1990,18211.50,17065100,76.99
+Australia,AUS,East Asia & Pacific,1991,18821.80,17284000,77.28
+Australia,AUS,East Asia & Pacific,1992,18570.12,17495000,77.38
+Australia,AUS,East Asia & Pacific,1993,17634.53,17667000,77.88
+Australia,AUS,East Asia & Pacific,1994,18046.14,17855000,77.88
+Australia,AUS,East Asia & Pacific,1995,20319.63,18072000,77.83
+Australia,AUS,East Asia & Pacific,1996,21861.33,18311000,78.08
+Australia,AUS,East Asia & Pacific,1997,23468.60,18517000,78.48
+Australia,AUS,East Asia & Pacific,1998,21318.96,18711000,78.63
+Australia,AUS,East Asia & Pacific,1999,20533.04,18926000,78.93
+Australia,AUS,East Asia & Pacific,2000,21679.25,19153000,79.23
+Australia,AUS,East Asia & Pacific,2001,19490.86,19413000,79.63
+Australia,AUS,East Asia & Pacific,2002,20082.48,19651400,79.94
+Australia,AUS,East Asia & Pacific,2003,23447.03,19895400,80.24
+Australia,AUS,East Asia & Pacific,2004,30430.68,20127400,80.49
+Australia,AUS,East Asia & Pacific,2005,33999.24,20394800,80.84
+Australia,AUS,East Asia & Pacific,2006,36044.92,20697900,81.04
+Australia,AUS,East Asia & Pacific,2007,40960.05,20827600,81.29
+Australia,AUS,East Asia & Pacific,2008,49601.66,21249200,81.40
+Australia,AUS,East Asia & Pacific,2009,42772.36,21691700,81.54
+Australia,AUS,East Asia & Pacific,2010,52022.13,22031750,81.70
+Australia,AUS,East Asia & Pacific,2011,62517.83,22340024,81.90
+Australia,AUS,East Asia & Pacific,2012,68012.15,22733465,82.05
+Australia,AUS,East Asia & Pacific,2013,68150.11,23128129,82.15
+Australia,AUS,East Asia & Pacific,2014,62510.79,23475686,82.30
+Australia,AUS,East Asia & Pacific,2015,56755.72,23815995,82.40
+Australia,AUS,East Asia & Pacific,2016,49971.13,24190907,82.45
+Australia,AUS,East Asia & Pacific,2017,54027.97,24601860,82.50
+Australia,AUS,East Asia & Pacific,2018,57354.96,24982688,82.75
+Australia,AUS,East Asia & Pacific,2019,55057.20,25365745,82.90
+Brunei Darussalam,BRN,East Asia & Pacific,1990,13607.52,258714,70.19
+Brunei Darussalam,BRN,East Asia & Pacific,1991,13905.06,266208,70.44
+Brunei Darussalam,BRN,East Asia & Pacific,1992,15274.44,273888,70.70
+Brunei Darussalam,BRN,East Asia & Pacific,1993,14575.73,281684,70.95
+Brunei Darussalam,BRN,East Asia & Pacific,1994,14120.85,289452,71.21
+Brunei Darussalam,BRN,East Asia & Pacific,1995,15933.35,297112,71.47
+Brunei Darussalam,BRN,East Asia & Pacific,1996,16793.28,304620,71.73
+Brunei Darussalam,BRN,East Asia & Pacific,1997,16660.36,311962,71.99
+Brunei Darussalam,BRN,East Asia & Pacific,1998,12693.79,319135,72.27
+Brunei Darussalam,BRN,East Asia & Pacific,1999,14101.35,326214,72.54
+Brunei Darussalam,BRN,East Asia & Pacific,2000,18012.56,333166,72.81
+Brunei Darussalam,BRN,East Asia & Pacific,2001,16472.15,340037,73.08
+Brunei Darussalam,BRN,East Asia & Pacific,2002,16850.15,346777,73.33
+Brunei Darussalam,BRN,East Asia & Pacific,2003,18560.61,353295,73.58
+Brunei Darussalam,BRN,East Asia & Pacific,2004,21902.09,359434,73.80
+Brunei Darussalam,BRN,East Asia & Pacific,2005,26105.28,365112,74.01
+Brunei Darussalam,BRN,East Asia & Pacific,2006,30979.88,370262,74.19
+Brunei Darussalam,BRN,East Asia & Pacific,2007,32663.57,374967,74.35
+Brunei Darussalam,BRN,East Asia & Pacific,2008,37934.38,379418,74.49
+Brunei Darussalam,BRN,East Asia & Pacific,2009,27955.71,383902,74.62
+Brunei Darussalam,BRN,East Asia & Pacific,2010,35269.55,388634,74.74
+Brunei Darussalam,BRN,East Asia & Pacific,2011,47055.84,393687,74.85
+Brunei Darussalam,BRN,East Asia & Pacific,2012,47740.51,398997,74.96
+Brunei Darussalam,BRN,East Asia & Pacific,2013,44740.09,404414,75.08
+Brunei Darussalam,BRN,East Asia & Pacific,2014,41726.78,409778,75.19
+Brunei Darussalam,BRN,East Asia & Pacific,2015,31164.56,414914,75.32
+Brunei Darussalam,BRN,East Asia & Pacific,2016,27157.82,419791,75.45
+Brunei Darussalam,BRN,East Asia & Pacific,2017,28572.15,424481,75.59
+Brunei Darussalam,BRN,East Asia & Pacific,2018,31628.33,428960,75.72
+Brunei Darussalam,BRN,East Asia & Pacific,2019,31086.75,433296,75.86
+China,CHN,East Asia & Pacific,1990,317.88,1135185000,69.15
+China,CHN,East Asia & Pacific,1991,333.14,1150780000,69.24
+China,CHN,East Asia & Pacific,1992,366.46,1164970000,69.36
+China,CHN,East Asia & Pacific,1993,377.39,1178440000,69.50
+China,CHN,East Asia & Pacific,1994,473.49,1191835000,69.67
+China,CHN,East Asia & Pacific,1995,609.66,1204855000,69.89
+China,CHN,East Asia & Pacific,1996,709.41,1217550000,70.14
+China,CHN,East Asia & Pacific,1997,781.74,1230075000,70.43
+China,CHN,East Asia & Pacific,1998,828.58,1241935000,70.74
+China,CHN,East Asia & Pacific,1999,873.29,1252735000,71.06
+China,CHN,East Asia & Pacific,2000,959.37,1262645000,71.40
+China,CHN,East Asia & Pacific,2001,1053.11,1271850000,71.73
+China,CHN,East Asia & Pacific,2002,1148.51,1280400000,72.06
+China,CHN,East Asia & Pacific,2003,1288.64,1288400000,72.38
+China,CHN,East Asia & Pacific,2004,1508.67,1296075000,72.69
+China,CHN,East Asia & Pacific,2005,1753.42,1303720000,72.99
+China,CHN,East Asia & Pacific,2006,2099.23,1311020000,73.27
+China,CHN,East Asia & Pacific,2007,2693.97,1317885000,73.55
+China,CHN,East Asia & Pacific,2008,3468.30,1324655000,73.84
+China,CHN,East Asia & Pacific,2009,3832.24,1331260000,74.12
+China,CHN,East Asia & Pacific,2010,4550.45,1337705000,74.41
+China,CHN,East Asia & Pacific,2011,5618.13,1344130000,74.71
+China,CHN,East Asia & Pacific,2012,6316.92,1350695000,75.01
+China,CHN,East Asia & Pacific,2013,7050.65,1357380000,75.32
+China,CHN,East Asia & Pacific,2014,7678.60,1364270000,75.63
+China,CHN,East Asia & Pacific,2015,8066.94,1371220000,75.93
+China,CHN,East Asia & Pacific,2016,8147.94,1378665000,76.21
+China,CHN,East Asia & Pacific,2017,8879.44,1386395000,76.47
+China,CHN,East Asia & Pacific,2018,9976.68,1392730000,76.70
+China,CHN,East Asia & Pacific,2019,10216.63,1397715000,76.91
+Hong Kong,HKG,East Asia & Pacific,1990,13485.54,5704500,77.38
+Hong Kong,HKG,East Asia & Pacific,1991,15465.86,5752000,77.88
+Hong Kong,HKG,East Asia & Pacific,1992,17976.43,5800500,77.68
+Hong Kong,HKG,East Asia & Pacific,1993,20395.52,5901000,78.03
+Hong Kong,HKG,East Asia & Pacific,1994,22502.58,6035400,78.53
+Hong Kong,HKG,East Asia & Pacific,1995,23497.49,6156100,78.68
+Hong Kong,HKG,East Asia & Pacific,1996,24818.15,6435500,79.63
+Hong Kong,HKG,East Asia & Pacific,1997,27330.03,6489300,80.13
+Hong Kong,HKG,East Asia & Pacific,1998,25808.97,6543700,80.13
+Hong Kong,HKG,East Asia & Pacific,1999,25091.67,6606500,80.38
+Hong Kong,HKG,East Asia & Pacific,2000,25756.66,6665000,80.88
+Hong Kong,HKG,East Asia & Pacific,2001,25230.22,6714300,81.42
+Hong Kong,HKG,East Asia & Pacific,2002,24665.89,6744100,81.43
+Hong Kong,HKG,East Asia & Pacific,2003,23977.02,6730800,81.38
+Hong Kong,HKG,East Asia & Pacific,2004,24928.10,6783500,81.83
+Hong Kong,HKG,East Asia & Pacific,2005,26649.75,6813200,81.63
+Hong Kong,HKG,East Asia & Pacific,2006,28224.22,6857100,82.38
+Hong Kong,HKG,East Asia & Pacific,2007,30594.02,6916300,82.33
+Hong Kong,HKG,East Asia & Pacific,2008,31515.66,6957800,82.38
+Hong Kong,HKG,East Asia & Pacific,2009,30697.34,6972800,82.78
+Hong Kong,HKG,East Asia & Pacific,2010,32550.00,7024200,82.98
+Hong Kong,HKG,East Asia & Pacific,2011,35142.49,7071600,83.42
+Hong Kong,HKG,East Asia & Pacific,2012,36730.88,7150100,83.48
+Hong Kong,HKG,East Asia & Pacific,2013,38403.78,7178900,83.83
+Hong Kong,HKG,East Asia & Pacific,2014,40315.29,7229500,83.98
+Hong Kong,HKG,East Asia & Pacific,2015,42431.89,7291300,84.28
+Hong Kong,HKG,East Asia & Pacific,2016,43731.11,7336600,84.23
+Hong Kong,HKG,East Asia & Pacific,2017,46165.86,7391700,84.68
+Hong Kong,HKG,East Asia & Pacific,2018,48543.40,7451000,84.93
+Hong Kong,HKG,East Asia & Pacific,2019,48713.47,7507400,85.08
+Japan,JPN,East Asia & Pacific,1990,25359.35,123478000,78.84
+Japan,JPN,East Asia & Pacific,1991,28925.04,123964000,79.10
+Japan,JPN,East Asia & Pacific,1992,31464.55,124425000,79.15
+Japan,JPN,East Asia & Pacific,1993,35765.91,124829000,79.29
+Japan,JPN,East Asia & Pacific,1994,39268.57,125178000,79.69
+Japan,JPN,East Asia & Pacific,1995,43440.37,125472000,79.54
+Japan,JPN,East Asia & Pacific,1996,38436.93,125757000,80.20
+Japan,JPN,East Asia & Pacific,1997,35021.72,126057000,80.42
+Japan,JPN,East Asia & Pacific,1998,31902.77,126400000,80.50
+Japan,JPN,East Asia & Pacific,1999,36026.56,126631000,80.57
+Japan,JPN,East Asia & Pacific,2000,38532.04,126843000,81.08
+Japan,JPN,East Asia & Pacific,2001,33846.47,127149000,81.42
+Japan,JPN,East Asia & Pacific,2002,32289.35,127445000,81.56
+Japan,JPN,East Asia & Pacific,2003,34808.39,127718000,81.76
+Japan,JPN,East Asia & Pacific,2004,37688.72,127761000,82.03
+Japan,JPN,East Asia & Pacific,2005,37217.65,127773000,81.93
+Japan,JPN,East Asia & Pacific,2006,35433.99,127854000,82.32
+Japan,JPN,East Asia & Pacific,2007,35275.23,128001000,82.51
+Japan,JPN,East Asia & Pacific,2008,39339.30,128063000,82.59
+Japan,JPN,East Asia & Pacific,2009,40855.18,128047000,82.93
+Japan,JPN,East Asia & Pacific,2010,44507.68,128070000,82.84
+Japan,JPN,East Asia & Pacific,2011,48168.00,127833000,82.59
+Japan,JPN,East Asia & Pacific,2012,48603.48,127629000,83.10
+Japan,JPN,East Asia & Pacific,2013,40454.45,127445000,83.33
+Japan,JPN,East Asia & Pacific,2014,38109.41,127276000,83.59
+Japan,JPN,East Asia & Pacific,2015,34524.47,127141000,83.79
+Japan,JPN,East Asia & Pacific,2016,38761.82,126994511,83.98
+Japan,JPN,East Asia & Pacific,2017,38386.51,126785797,84.10
+Japan,JPN,East Asia & Pacific,2018,39159.42,126529100,84.21
+Japan,JPN,East Asia & Pacific,2019,40246.88,126264931,84.36
+Korea,KOR,East Asia & Pacific,1990,6610.04,42869283,71.60
+Korea,KOR,East Asia & Pacific,1991,7636.98,43295704,72.05
+Korea,KOR,East Asia & Pacific,1992,8126.67,43747962,72.50
+Korea,KOR,East Asia & Pacific,1993,8884.93,44194628,73.00
+Korea,KOR,East Asia & Pacific,1994,10385.34,44641540,73.40
+Korea,KOR,East Asia & Pacific,1995,12564.78,45092991,73.70
+Korea,KOR,East Asia & Pacific,1996,13403.05,45524681,74.15
+Korea,KOR,East Asia & Pacific,1997,12398.48,45953580,74.60
+Korea,KOR,East Asia & Pacific,1998,8281.70,46286503,75.00
+Korea,KOR,East Asia & Pacific,1999,10672.42,46616677,75.41
+Korea,KOR,East Asia & Pacific,2000,12256.99,47008111,75.91
+Korea,KOR,East Asia & Pacific,2001,11561.25,47370164,76.41
+Korea,KOR,East Asia & Pacific,2002,13165.07,47644736,76.77
+Korea,KOR,East Asia & Pacific,2003,14672.86,47892330,77.21
+Korea,KOR,East Asia & Pacific,2004,16496.12,48082519,77.67
+Korea,KOR,East Asia & Pacific,2005,19402.50,48184561,78.17
+Korea,KOR,East Asia & Pacific,2006,21743.48,48438292,78.67
+Korea,KOR,East Asia & Pacific,2007,24086.41,48683638,79.12
+Korea,KOR,East Asia & Pacific,2008,21350.43,49054708,79.52
+Korea,KOR,East Asia & Pacific,2009,19143.85,49307835,79.97
+Korea,KOR,East Asia & Pacific,2010,23087.23,49554112,80.12
+Korea,KOR,East Asia & Pacific,2011,25096.26,49936638,80.57
+Korea,KOR,East Asia & Pacific,2012,25466.76,50199853,80.82
+Korea,KOR,East Asia & Pacific,2013,27182.73,50428893,81.27
+Korea,KOR,East Asia & Pacific,2014,29249.58,50746659,81.72
+Korea,KOR,East Asia & Pacific,2015,28732.23,51014947,82.02
+Korea,KOR,East Asia & Pacific,2016,29288.87,51217803,82.28
+Korea,KOR,East Asia & Pacific,2017,31616.84,51361911,82.63
+Korea,KOR,East Asia & Pacific,2018,33422.94,51606633,82.63
+Korea,KOR,East Asia & Pacific,2019,31846.22,51709098,83.23
+Macao ,MAC,East Asia & Pacific,1990,9368.37,343816,77.30
+Macao ,MAC,East Asia & Pacific,1991,10562.34,353623,77.61
+Macao ,MAC,East Asia & Pacific,1992,13466.38,362308,77.93
+Macao ,MAC,East Asia & Pacific,1993,15195.97,370195,78.25
+Macao ,MAC,East Asia & Pacific,1994,16585.17,377805,78.59
+Macao ,MAC,East Asia & Pacific,1995,18147.34,385517,78.93
+Macao ,MAC,East Asia & Pacific,1996,18106.33,393376,79.26
+Macao ,MAC,East Asia & Pacific,1997,17967.43,401353,79.57
+Macao ,MAC,East Asia & Pacific,1998,16460.21,409620,79.87
+Macao ,MAC,East Asia & Pacific,1999,15513.47,418388,80.15
+Macao ,MAC,East Asia & Pacific,2000,15710.09,427772,80.41
+Macao ,MAC,East Asia & Pacific,2001,15552.95,437928,80.65
+Macao ,MAC,East Asia & Pacific,2002,16315.36,448813,80.87
+Macao ,MAC,East Asia & Pacific,2003,17808.90,460157,81.09
+Macao ,MAC,East Asia & Pacific,2004,22446.34,471600,81.30
+Macao ,MAC,East Asia & Pacific,2005,25043.02,482863,81.52
+Macao ,MAC,East Asia & Pacific,2006,29950.77,493804,81.75
+Macao ,MAC,East Asia & Pacific,2007,36352.92,504504,81.98
+Macao ,MAC,East Asia & Pacific,2008,40597.56,515232,82.22
+Macao ,MAC,East Asia & Pacific,2009,40796.96,526401,82.46
+Macao ,MAC,East Asia & Pacific,2010,52253.16,538215,82.70
+Macao ,MAC,East Asia & Pacific,2011,66644.39,550833,82.94
+Macao ,MAC,East Asia & Pacific,2012,76291.85,564037,83.16
+Macao ,MAC,East Asia & Pacific,2013,89287.45,577368,83.36
+Macao ,MAC,East Asia & Pacific,2014,93777.11,590210,83.54
+Macao ,MAC,East Asia & Pacific,2015,75340.99,602093,83.71
+Macao ,MAC,East Asia & Pacific,2016,74061.09,612824,83.85
+Macao ,MAC,East Asia & Pacific,2017,81516.67,622578,83.99
+Macao ,MAC,East Asia & Pacific,2018,87208.54,631633,84.12
+Macao ,MAC,East Asia & Pacific,2019,84096.40,640446,84.24
+Malaysia,MYS,East Asia & Pacific,1990,2441.74,18029824,70.87
+Malaysia,MYS,East Asia & Pacific,1991,2653.53,18519941,71.11
+Malaysia,MYS,East Asia & Pacific,1992,3113.65,19002660,71.33
+Malaysia,MYS,East Asia & Pacific,1993,3433.16,19484901,71.52
+Malaysia,MYS,East Asia & Pacific,1994,3728.11,19977508,71.69
+Malaysia,MYS,East Asia & Pacific,1995,4329.71,20487604,71.83
+Malaysia,MYS,East Asia & Pacific,1996,4798.61,21017619,71.97
+Malaysia,MYS,East Asia & Pacific,1997,4637.87,21562790,72.11
+Malaysia,MYS,East Asia & Pacific,1998,3263.33,22114647,72.26
+Malaysia,MYS,East Asia & Pacific,1999,3492.67,22661293,72.42
+Malaysia,MYS,East Asia & Pacific,2000,4043.66,23194252,72.59
+Malaysia,MYS,East Asia & Pacific,2001,3913.43,23709115,72.78
+Malaysia,MYS,East Asia & Pacific,2002,4165.73,24208391,72.98
+Malaysia,MYS,East Asia & Pacific,2003,4461.85,24698821,73.17
+Malaysia,MYS,East Asia & Pacific,2004,4952.21,25190647,73.36
+Malaysia,MYS,East Asia & Pacific,2005,5587.03,25690615,73.56
+Malaysia,MYS,East Asia & Pacific,2006,6209.12,26201954,73.74
+Malaysia,MYS,East Asia & Pacific,2007,7243.46,26720367,73.93
+Malaysia,MYS,East Asia & Pacific,2008,8474.59,27236003,74.12
+Malaysia,MYS,East Asia & Pacific,2009,7292.49,27735038,74.31
+Malaysia,MYS,East Asia & Pacific,2010,9040.57,28208028,74.49
+Malaysia,MYS,East Asia & Pacific,2011,10399.37,28650962,74.68
+Malaysia,MYS,East Asia & Pacific,2012,10817.44,29068189,74.88
+Malaysia,MYS,East Asia & Pacific,2013,10970.12,29468923,75.07
+Malaysia,MYS,East Asia & Pacific,2014,11319.08,29866606,75.27
+Malaysia,MYS,East Asia & Pacific,2015,9955.24,30270965,75.46
+Malaysia,MYS,East Asia & Pacific,2016,9817.74,30684652,75.65
+Malaysia,MYS,East Asia & Pacific,2017,10259.18,31104655,75.83
+Malaysia,MYS,East Asia & Pacific,2018,11377.46,31528033,76.00
+Malaysia,MYS,East Asia & Pacific,2019,11414.21,31949789,76.16
+New Zealand,NZL,East Asia & Pacific,1990,13663.02,3329800,75.38
+New Zealand,NZL,East Asia & Pacific,1991,12230.07,3495100,76.03
+New Zealand,NZL,East Asia & Pacific,1992,11793.14,3531700,76.12
+New Zealand,NZL,East Asia & Pacific,1993,13094.35,3572200,76.43
+New Zealand,NZL,East Asia & Pacific,1994,15280.31,3620000,76.88
+New Zealand,NZL,East Asia & Pacific,1995,17400.42,3673400,76.73
+New Zealand,NZL,East Asia & Pacific,1996,18794.44,3732000,76.79
+New Zealand,NZL,East Asia & Pacific,1997,17474.19,3781300,77.33
+New Zealand,NZL,East Asia & Pacific,1998,14738.45,3815000,78.09
+New Zealand,NZL,East Asia & Pacific,1999,15322.22,3835100,77.89
+New Zealand,NZL,East Asia & Pacific,2000,13641.10,3857700,78.64
+New Zealand,NZL,East Asia & Pacific,2001,13882.86,3880500,78.69
+New Zealand,NZL,East Asia & Pacific,2002,16874.19,3948500,78.85
+New Zealand,NZL,East Asia & Pacific,2003,21913.71,4027200,79.15
+New Zealand,NZL,East Asia & Pacific,2004,25420.23,4087500,79.55
+New Zealand,NZL,East Asia & Pacific,2005,27751.07,4133900,79.85
+New Zealand,NZL,East Asia & Pacific,2006,26671.33,4184600,80.05
+New Zealand,NZL,East Asia & Pacific,2007,32511.13,4223800,80.15
+New Zealand,NZL,East Asia & Pacific,2008,31290.25,4259800,80.35
+New Zealand,NZL,East Asia & Pacific,2009,28205.73,4302600,80.70
+New Zealand,NZL,East Asia & Pacific,2010,33700.13,4350700,80.70
+New Zealand,NZL,East Asia & Pacific,2011,38437.54,4384000,80.90
+New Zealand,NZL,East Asia & Pacific,2012,39982.75,4408100,81.16
+New Zealand,NZL,East Asia & Pacific,2013,42962.99,4442100,81.41
+New Zealand,NZL,East Asia & Pacific,2014,44486.20,4516500,81.40
+New Zealand,NZL,East Asia & Pacific,2015,38501.22,4609400,81.46
+New Zealand,NZL,East Asia & Pacific,2016,39927.80,4714100,81.61
+New Zealand,NZL,East Asia & Pacific,2017,42674.06,4813600,81.66
+New Zealand,NZL,East Asia & Pacific,2018,42427.58,4900600,81.86
+New Zealand,NZL,East Asia & Pacific,2019,41557.80,4979300,81.71
+Singapore,SGP,East Asia & Pacific,1990,11861.76,3047132,75.30
+Singapore,SGP,East Asia & Pacific,1991,14502.38,3135083,75.65
+Singapore,SGP,East Asia & Pacific,1992,16135.91,3230698,75.95
+Singapore,SGP,East Asia & Pacific,1993,18290.03,3313471,76.05
+Singapore,SGP,East Asia & Pacific,1994,21553.03,3419048,76.20
+Singapore,SGP,East Asia & Pacific,1995,24914.41,3524506,76.30
+Singapore,SGP,East Asia & Pacific,1996,26233.63,3670704,76.60
+Singapore,SGP,East Asia & Pacific,1997,26375.97,3796038,76.90
+Singapore,SGP,East Asia & Pacific,1998,21829.30,3927213,77.30
+Singapore,SGP,East Asia & Pacific,1999,21796.08,3958723,77.55
+Singapore,SGP,East Asia & Pacific,2000,23852.33,4027887,77.95
+Singapore,SGP,East Asia & Pacific,2001,21700.02,4138012,78.25
+Singapore,SGP,East Asia & Pacific,2002,22159.69,4175950,78.55
+Singapore,SGP,East Asia & Pacific,2003,23730.15,4114826,79.04
+Singapore,SGP,East Asia & Pacific,2004,27608.54,4166664,79.49
+Singapore,SGP,East Asia & Pacific,2005,29961.26,4265762,79.99
+Singapore,SGP,East Asia & Pacific,2006,33769.15,4401365,80.14
+Singapore,SGP,East Asia & Pacific,2007,39432.94,4588599,80.44
+Singapore,SGP,East Asia & Pacific,2008,40007.47,4839396,80.79
+Singapore,SGP,East Asia & Pacific,2009,38927.21,4987573,81.24
+Singapore,SGP,East Asia & Pacific,2010,47236.96,5076732,81.54
+Singapore,SGP,East Asia & Pacific,2011,53890.43,5183688,81.74
+Singapore,SGP,East Asia & Pacific,2012,55546.49,5312437,82.00
+Singapore,SGP,East Asia & Pacific,2013,56967.43,5399162,82.25
+Singapore,SGP,East Asia & Pacific,2014,57562.53,5469724,82.50
+Singapore,SGP,East Asia & Pacific,2015,55646.62,5535002,82.74
+Singapore,SGP,East Asia & Pacific,2016,56828.30,5607283,82.85
+Singapore,SGP,East Asia & Pacific,2017,60913.75,5612253,83.10
+Singapore,SGP,East Asia & Pacific,2018,66188.78,5638676,83.30
+Singapore,SGP,East Asia & Pacific,2019,65233.28,5703569,83.50
