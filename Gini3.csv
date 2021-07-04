@@ -1,0 +1,66 @@
+Country,Code,Gini_Index
+Slovenia,SVN,0.2292
+Czech Republic,CZE,0.2316
+Belarus,BLR,0.2338
+Slovak Republic,SVK,0.235
+Moldova,MDA,0.238
+Ukraine,UKR,0.2404
+United Arab Emirates,ARE,0.2452
+Belgium,BEL,0.2524
+Finland,FIN,0.2536
+Norway,NOR,0.2556
+Kyrgyz Republic,KGZ,0.2564
+Kazakhstan,KAZ,0.2594
+Denmark,DNK,0.2596
+Netherlands,NLD,0.2618
+Malta,MLT,0.2672
+Hungary,HUN,0.273
+Croatia,HRV,0.278
+Sweden,SWE,0.2788
+Poland,POL,0.28
+Estonia,EST,0.2852
+Austria,AUT,0.2864
+Pakistan,PAK,0.291
+France,FRA,0.2972
+Cyprus,CYP,0.3006
+Seychelles,SYC,0.3018
+Mongolia,MNG,0.3038
+Greece,GRC,0.306
+Switzerland,CHE,0.3068
+North Macedonia,MKD,0.3104
+Portugal,PRT,0.3106
+Armenia,ARM,0.3136
+Spain,ESP,0.3236
+Latvia,LVA,0.3242
+Sierra Leone,SLE,0.3266
+Nigeria,NGA,0.3268
+Luxembourg,LUX,0.3284
+Lithuania,LTU,0.3302
+Vietnam,VNM,0.3302
+Romania,ROU,0.3356
+Georgia,GEO,0.338
+Thailand,THA,0.3388
+Russian Federation,RUS,0.3448
+Indonesia,IDN,0.3502
+Lao PDR,LAO,0.357
+El Salvador,SLV,0.3576
+Uruguay,URY,0.3684
+Bulgaria,BGR,0.376
+United States,USA,0.381
+Argentina,ARG,0.3844
+Turkey,TUR,0.3856
+Philippines,PHL,0.3872
+"Iran, Islamic Rep.",IRN,0.3878
+Peru,PER,0.391
+Bolivia,BOL,0.3946
+Dominican Republic,DOM,0.3968
+Mexico,MEX,0.4114
+Ecuador,ECU,0.4192
+Paraguay,PRY,0.421
+Costa Rica,CRI,0.4416
+Panama,PAN,0.4506
+Honduras,HND,0.453
+Colombia,COL,0.4584
+Angola,AGO,0.4642
+Brazil,BRA,0.4902
+Perfect Equality Lorenz,NAN,0
