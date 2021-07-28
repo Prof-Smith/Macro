@@ -1,0 +1,524 @@
+---
+title: "ECO 201: Principles of Macroeconomics"
+author: "Professor Zachary A. Smith"
+date: "6/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 14px;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 38px;
+  color: DarkRed;
+}
+h1 { /* Header 1 */
+  font-size: 28px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 22px;
+  color: DarkBlue;
+}
+h3 { /* Header 3 */
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: DarkBlue;
+}
+code.r{ /* Code block */
+    font-size: 14px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+body {
+text-align: justify}
+</style>
+## Introduction
+
+Throughout this course, I intend to introduce you to macroeconomic principles by manipulating and interacting with the macroeconomic variables from a country of your choosing. As we go through this course, you will be introducing to a number of topics, each topic, in its one right, has some influence over a macroeconomic variable. Those topics are as follows:
+
+Unit 1: Trade-Offs (Consumption Goods and Capital Goods)\
+Unit 2: Unemployment Rates and Inflation\
+Unit 3: Gross Domestic Product\
+Unit 4: The Business Cycle and Modelling\
+Unit 5: Fiscal Policy\
+Unit 6: Monetary Policy and Money\
+Unit 7: Globalization and Free Trade\
+Unit 8: Balance of Payments and the Exchange Rate\
+
+In each of these units, you will be given instructions about what metrics that you should look at and analyze for your given country, and from the first unit to the last you should focus on building a comprehensive analysis of your country. In this course, you are going to be required to develop a presentation via ThingLink that provides a macroeconomic overview of your selected country using concepts from each of the Units that we cover throughout the course. The intent of this project is for you to connect the theory, concepts, and calculations that we cover this semester to real-world data and outcomes. A companion link and example project is provided for you in the following ThingLink: https://www.thinglink.com/video/1450251502986723331.
+
+### <span style="color:red">Deliverable 1: Setting the Stage<span style="color:red">
+
+The first step in this project is to create your opening scene. The opening scene should be an interesting 360-degree image that provides some information about your country, my example is a dockyard scene in Haiti. The steps associated with downloading a 360-degree image are provided on the following website: https://e4youth.org/blog/2019/02/05/snapping-360-images-from-google-street-view/; moreover, tips for uploading your 360 degree image to your ThingLink account are found here: https://www.youtube.com/watch?v=VRNzalvcldU. Note: when you have completed this activity, edit your privacy settings to make your ThingLink shell 'Public' and send me a copy of your shareable link to embed in my ThingLink for the course this semester. 
+
+## Unit 1: Trade-Offs (Consumption Goods and Capital Goods)
+
+In Unit 1, we begin by discussing the basic concepts that set up our exploration of economics (i.e., differences between micro and macroeconomics, comparing and contrasting scarcity and shortage, opportunity costs, etc.), but one topic that is related to our project is the choices that a particular country makes in terms spending on consumption or capital goods. More specifically, in this segment, we are going to examine, at a country level, the decision to invest in or develop human capital. The Human Capital Index (HCI) is an attempt by the World Bank to measure human capital in a particular country. Please see the following website for more information: https://www.worldbank.org/en/publication/human-capital.
+
+According to the World Bank, which has provided an example calculation of the HCI in its 2020 downloadable file (see: https://www.worldbank.org/en/publication/human-capital), the HCI is comprised of the product of three components, which are: a) The probability of survival to age 5 (i.e., Survival - Survival_5), b) the Expected Years of School (0-14 - School) and Harmonized Test Score (300-625 - Scores), which is assumed to be indicative of the individual's future productivity (i.e., Schooling), and c) The fraction of Children Under 5 that are not Stunted (i.e., Child_Development) and The Fraction of 15-Year Olds that Survive to Age 60 (i.e., Survival_Adult HCI_2020), which are proxies for health. 
+
+### <span style="color:red">Deliverable 2: The Human Capital Index<span style="color:red">
+
+Your task is to examine your country’s HCI and develop a brief presentation (1 to 2 minutes with content) of it using ThingLink (note: Use my example of Haiti as a reference - https://www.thinglink.com/scene/1449808958842732547). When you are doing this you can create graphs and visualizations and then provide some sort commentary about why the graphs and visualization are important and their meaning.  
+
+### Discussion: Plot of Human Capital Index Globally Using Data from 2020
+
+The following R commands and visualizations provides you with an example of how you could use data to tell a story. Now, there are some substantial limitations that we have with the data that we were given (i.e., we are missing information about a number of countries), but we can work around this--remember that we are trying to obtain an understanding of why the study of macroeconomics is important and how it informs us about the world around us. Focusing specifically on the visualization (i.e., the map) the HCI has a maximum value of 1 and a minimum value of 0. Given this information is there anything particular interesting in the figure that follows or does anything jump out at you? To me, the African continent seems to have an interesting story to tell as central Africa seems to score relatively low on the HCI and the Northern and South African Countries seem to be scoring relatively higher on the HCI with some additional coastal countries showing higher HCI scores as well. These are just visual cues that we can pick up from analyzing the data visually. For more intriguing data visualizations illustrating the differences in the HCI across different countries see the following resource: https://www.worldbank.org/en/publication/human-capital#Index.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+install.packages(
+   "ggplot2",
+   repos = c("http://rstudio.org/_packages",
+   "http://cran.rstudio.com")
+)
+library(plotly)
+library(rmarkdown)
+HCI_2020 <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/HCI_2020.csv')
+HCI_2020_Plot <- plot_ly(HCI_2020, type='choropleth', locations=HCI_2020$Code, z=HCI_2020$HCI_2020, text=HCI_2020$Country, colorscale="Jet")
+HCI_2020_Plot
+```
+
+### Discussion: Scatter Plots (Child Development and the Human Capital Index - Sub-Saharan Africa v. the World)
+
+Scatterplots allow us to group the data by region and then look for clusters or patterns. Note, the goal of this segment is to expose you to visualizations and data and to enable you to think about how the inner 'economist' would use this information to make policy decisions or intervene in markets that do not seem to be working properly. For this activity retain the Sub-Saharan scatterplot and compare it to the other regions available. Make note of the similarities and differences in the relationship between these two variables and the regions. 
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(dplyr)
+library(sqldf)
+library(rmarkdown)
+library(knitr)
+
+HCI_2020 <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/HCI_2020.csv')
+
+Child_Plot <- plot_ly(data=HCI_2020, x = ~Child_Development, y = ~HCI_2020, text=HCI_2020$Country, color = ~Region) 
+Child_Plot 
+```
+
+### Discussion: Proportion of Society Living Below Povery Over Time
+
+Thinking about how much we have achieved globally in the fight against global poverty is important. This relates well to human capital and the development thereof. According to Schoch & Lakner (2020) from 1990 to 2015 the global rate of extreme poverty fell from 36.2 to 10.1%, which was a significant feat (https://blogs.worldbank.org/opendata/global-poverty-reduction-slowing-regional-trends-help-understanding-why). Since then, from 2015 to 2017 they estimated that global poverty has fallen from 10.1 to 9.2%, which is still a reduction in the poverty rate, but a reduction at a slower pace. In this segment, other than just identifying general trends, look specifically at the proportion of people living below the poverty level in Madagascar and Myanmar over time. What do you see? What questions might you ask after seeing this? What could have cause substantial poverty reductions in one country and increases in people living below the poverty level in another?
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown) 
+library(plyr)
+library(sqldf)
+
+Below_Poverty <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/Below_Poverty_Time.csv')
+
+Below_Poverty_2 <- sqldf('SELECT *
+FROM Below_Poverty
+WHERE Sex = "BOTHSEX" and Age = "15+"')
+
+Below_Poverty_plot <- Below_Poverty_2 %>%
+  plot_ly(type = 'choropleth', locations = ~Code, z = ~Below_Poverty, color = ~Below_Poverty, frame = ~Year, text = ~Country, colorscale="Jet")
+
+Below_Poverty_plot
+```
+
+### Discussion: What's Being Done?
+
+The visual illustrations of the Human Capital Index (HCI) and the Number of People Living Below the Poverty line highlight some issues that we currently face globally within the Sub-Saharan Africa region (i.e., low levels of human capital and a high proportion of people living below the poverty line). One thing that is missing is information about the Gini Coefficient in this region; so, we cannot explore whether there is also an issue with inequality in this region (see the following website for additional data: https://data.worldbank.org/indicator/SI.POV.GINI?view=map&year=2018). There is enough evidence to know that there is a problem. The United Nations (UN) has outlined a set of Global Sustainable Development Goals, which tracks data to produce annual reports to illustrate progress or lack thereof towards these development goals (https://unstats.un.org/sdgs/indicators/database/). One of those goals (i.e., Goal 9) is to 'Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.' To track progress towards this goal, the UN tracks the 'Total official flows for infrastructure development by recipient countries in millions of '2018' dollars. A plot of the flows over time are presented in the following visual plot. The question that I would like you to consider is if we seem to be experiencing high levels of poverty and low levels of human capital development in the African Countries why isn't more international support flowing to this region? You could also comment on other things as well (e.g., why have flows to China slowed and why are flows to India so significant?)
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown) 
+library(plyr)
+library(sqldf)
+
+Flows_to_Infrastructure <- read.csv('Flows_to_Infrastructure.csv')
+
+Flows_to_Infrastructure_plot <- Flows_to_Infrastructure %>%
+  plot_ly(type = 'choropleth', locations = ~Code, z = ~Flows_to_Infrastructure, color = ~Flows_to_Infrastructure, frame = ~Year, text = ~Country, colorscale="Jet")
+
+Flows_to_Infrastructure_plot
+```
+
+In summary, in this unit we focused primarily on building a foundation in economic principles, but our deliverable for our project was to provide a 360-degree picture embedded in a ThingLink, provide the URL to your instructor, and provide some commentary about your country's score on the Human Capital Index. Additionally, you were introduced to some data visualization techniques and a quick glimpse into how economists might use data visualization techniques to make some inferences about the data that they are working with. In addition, you should be able to think about how you would use this information to make public policy decisions (i.e., in countries that are underperforming in terms of the HCI what are some things that we might focus on in terms of funding or interventions to improve these deficiencies).
+
+## Unit 2: Unemployment Rates and Inflation
+
+### <span style="color:green">Videos Tutorial: Unemployment Rates<span style="color:green">
+
+Before starting this segment, it is worth spending some time to visit Attutthaya, Thailand in our ThingLink map (https://www.thinglink.com/video/1450251502986723331) and box with a Thai boxer (direct link: https://www.thinglink.com/video/1461520081254088705). The four marginal revolution videos embedded in this 360-degree video will introduce you to unemployment in general, but more specifically, the three types of unemployment, which are cyclical, structure, and frictional unemployment.
+
+### Discussion: Unemployment Rates
+
+In this unit, we are introduced to how we calculate unemployment rates, labor force participation rates, and who is counted in the labor force; in addition, we are exposed to price indicies and how inflation is measured in the US through the CPI. Our data exploration in this unit is going to start with our typical world view of unemployment rates. Note that the data used in this segment was taken from the World Bank (https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?view=map). Another useful tool that economists and statisticans use to visualize data is a scatter plot. For example, in following visualization, I have placed the county-level Per Capita Income on the y-axis and the Unemployment rate on the x-axis to determine if there is a relationship between the two variables. There doesn't seem to be much relationship between the two variables, let's take a step back. 
+
+Looking at the mapped levels of unemployment rates globally, I think that it is interesting to compare the development indicators in the North Africa and the southern region of Africa against that of the more central regions of Africa in terms of unemployment rates and human capital development from our previous mapping of the HCI. It seems as though from visual inspection that unemployment may have some relationship with human capital development. Think about what we are likely to be inferring here. Our question or proposition could be that unemployment rates are positively or negatively associated with human development levels and in our case of Africa, based on visual inspection, you might contend that the two variables are positively related just looking at the 'extreme values' (i.e., the Middle of Africa seems to have lower levels of human capital development and lower levels of unemployment and the northern and southern most countries in Africa have relatively higher human development and higher unemployment).
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+Unemployment <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Unemployment.csv")
+
+Unemployment_Plot <- plot_ly(Unemployment, type='choropleth', locations=Unemployment$Code, z=Unemployment$Unemployment, text=Unemployment$Country, colorscale="Jet")
+Unemployment_Plot
+
+Unemployment_PCAP_Plot <- plot_ly(data=Unemployment, x = ~Unemployment, y = ~PCAP_Inc, text=Unemployment$Country, color = ~Sub_Region) 
+Unemployment_PCAP_Plot
+```
+
+You could use a scatter plot to visually explore the relationship between the two variables. If we look at all of the countries, we see some very weak evidence of a positive relationship between Unemployment and the Human Capital Index; however, if we would like to quantify this relationship, we would use the correlation coefficient. Correlation just measures whether two variables move together and the statistic can range from a perfectly negative relationship (i.e., -1), no relationship (i.e., o), and a perfectly positive relationship (i.e., 1). In the first case, we obtain a correlation coefficient of .14, which indicates that there might be an extremely weak positive relationship between these two variables when we are looking at all countries. If we were to subset our data and look only at Sub-Saharan Africa and Northern Africa our correlation coefficient increases to .26; so, it is higher than our entire sample but still very weak. To illustrate a point, we can isolate Southern Europe and when we do so, we obtain a correlation coefficient of -.91, which indicates that countries in these regions have a strong and negative relationship between unemployment and the Human Capital Index.
+
+From this exercise, we should be able to take away a couple of things. When we study macroeconomics, we are interested with developing a deeper understanding of how economies work and how different variables influence economic interactions. In this case, we initially identified a relationship from visually inspecting the data and then we used a statistic technique to inform us about the significance of the relationship. When we were using visual cues, we were comparing extremes and not all countries in Africa to allow our perception of a relationship distract us from the truth. Statistics help us to see the truth; however, we can mine the data in a way that will provide us with false positives. In the last example, we only selected a few countries from Southern Europe and ran a test to illustrate that there was a significantly negative relationship between unemployment rates and the Human Capital Index. In the end, it doesn't seem like there is much of a relationship between unemployment rates and the Human Capital Index, but that is the interesting thing about economics--there are so many other things that could impact unemployment rates. This activity also highlighted issues associated with the 'small sample bias' or our attempt to project findings from a relatively small population onto a larger population.  
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(sqldf)
+Unemployment_HCI <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Unemployment_HCI.csv")
+Unemployment_HCI_Plot <- plot_ly(data=Unemployment_HCI, x = ~Unemployment, y = ~HCI_2020, text=Unemployment_HCI$Country, color = Unemployment_HCI$Sub_Region) 
+Unemployment_HCI_Plot
+
+cor(Unemployment_HCI$Unemployment, Unemployment_HCI$HCI_2020)
+
+Africa_Unemployment_HCI <- sqldf('SELECT *
+FROM Unemployment_HCI
+WHERE Sub_Region = "Sub-Saharan Africa" OR Code = "Northern Africa"')
+
+cor(Africa_Unemployment_HCI$Unemployment, Africa_Unemployment_HCI$HCI_2020)
+
+SEur_Unemployment_HCI <- sqldf('SELECT *
+FROM Unemployment_HCI
+WHERE Sub_Region = "Southern Europe"')
+
+cor(SEur_Unemployment_HCI$Unemployment, SEur_Unemployment_HCI$HCI_2020)
+```
+
+Maybe a more interesting way to look at this data is to look at time trends or times series data. In this particular section, we are going to take a trip to the Western Asia and examine the countries unemployment rates in that region over time. Moving from the map to the time series plot, focus specifically on Armenia, Israel, and the West Bank and Gaza. Data informs us or provides us with cues about when something might be a rye in a particular region. Questions that I would have from looking at these time series plots are 'what happened to the West Bank and Gaza in 2000 that changed the structure of their economy and led to substantial increases in unemployment?' I would ask a similar question of the Armenian Economy after 2007. These exercises aren't meant to give you answers to these questions, they are provided to illustrate how economists might use data to ask interesting questions and then attempt to answer them by researching the countries and exploring what conditions might have caused these structural shifts in unemployment.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+Unemployment_WAsia_Time <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Unemployment_Time_West_Asia.csv")
+Unemployment_WAsia_Time_2020 <- sqldf('SELECT *
+FROM Unemployment_WAsia_Time
+WHERE Year = "2020"')
+
+Unemployment_WAsia_Time_plot_2020 <- plot_ly(Unemployment_WAsia_Time_2020, type='choropleth', locations=Unemployment_WAsia_Time_2020$Code, z=Unemployment_WAsia_Time_2020$Unemployment, text=Unemployment_WAsia_Time_2020$Country, colorscale="Jet")
+
+Unemployment_WAsia_Time_plot_2020
+
+Unemployment_WAsia_Time_plot <- plot_ly(data = Unemployment_WAsia_Time, type = 'scatter', mode = 'lines+markers', x = ~Year, y = ~Unemployment, text = ~Country, color = ~Country, colorscale="Jet")
+Unemployment_WAsia_Time_plot
+
+Unemployment_WAsia_Time_plot_Choro <- Unemployment_WAsia_Time %>%
+  plot_ly(type = 'choropleth', locations = ~Code, z = ~Unemployment, text = ~Country, color = ~Unemployment, frame = ~Year, colorscale="Jet")
+Unemployment_WAsia_Time_plot_Choro
+
+```
+
+### <span style="color:red">Deliverable 3: Unemployment<span style="color:red">
+
+To gain some insight about the unemployment situation in your selected country, you are going to need to calculate the labor force participation rate and the unemployment rate. In addition, you are required to highlight one other interesting finding about the employment situation in that country, I have provided an example here: https://www.thinglink.com/scene/1449878994966020099. Finally, provide a brief 1-to-2-minute overview of the unemployment situation in that region and anything interesting about that particular country’s unemployment situation that you found.  
+
+### Discussion: Inflation
+
+In class, we will focus more on the mechanics behind how inflation is calculated (i.e., price indices and baskets). After we deal with the basic elements, it is important to illustrate what impact things like inflation have on an economy, but also what countries are managing their exposure to inflation well and which countries are not. For this illustration we used data from 2019 because the data from 2020 had too many missing observations. It is quite apparent that Sudan, South Sudan, and Iran experienced significant levels of inflation during this time period. What are the consequences of experiencing high-levels of inflation and how might it effect an economy?
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+
+Inflation_2019 <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Inflation_2019.csv")
+Inflation_2019_Plot <- plot_ly(Inflation_2019, type='choropleth', locations=Inflation_2019$Code, z=Inflation_2019$Inflation, text=Inflation_2019$Country, colorscale="Jet")
+Inflation_2019_Plot
+```
+
+### Discussion: Inflation 2 - What is going on in South Sudan?
+
+According to Elias and Biajo (2020) in September of 2020 the official exchange rate between a US Dollar (USD) and the South Sudanese Pound (SSP) in South Sudan was 55 SSP for 1 USD; however, the exchange rate on the black market to exchange 500 SSP for 1 USD. The Bank of South Sudan Governor stated that the country does not have a national payment system and therefore they cannot track expenditures, which seems like a large problem. In South Sudan, people seem to be opting for a stable store of value by attempting to convert their SSP to USD as soon as they receive it to avoid the depreciation in their purchasing power, but the government of South Sudan is attempting to ban the use of foreign currencies. What are the implications of this ban? 
+
+Reference: 
+
+Elias, V. and Biajo, N. (2020, September 11). South Sudan, Sudan Address Economic Crisis. VOA News. https://www.voanews.com/africa/south-sudan-focus/south-sudan-sudan-address-economic-crises
+
+## Unit 3: Gross Domestic Product (GDP)
+
+### GDP Per Capita
+
+In this section, we are going to examine the GDP per capita, which just indicates the GDP level of a particular country adjusted by its population. It is a better number to use when compared against GDP, in general, when attempting to obtain some idea about the living standards in a particular region. However, to obtain better insights you should look at the distribution of income within a particular country among its citizens. A metric that accomplishes this is the Gini Coefficient. 
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+
+GDP_PCAP <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/Country-GDP-2019.csv')
+GDP_PCAP_Plot <- plot_ly(GDP_PCAP, type='choropleth', locations=GDP_PCAP$Code, z=GDP_PCAP$GDP_PCAP, text=GDP_PCAP$Country, colorscale="Jet")
+GDP_PCAP_Plot
+```
+
+Now we are going to take a look at the percentage of each of the components of GDP in proportion to GDP itself. Note, we are using data from the IMF (International Monetary Fund) website (https://data.imf.org/regular.aspx?key=61545852) and we used data from 2019 due to limited data availability in 2020. If a country did not have data, then they were excluded from our analysis. For this illustration, we are going to take a trip to the Caribbean and Latin American Countries. 
+
+In our first map, we plot the percentage of GDP that is made up of consumption. Interesting countries to review are Guyana, Haiti, and the Bahamas, which have 111.72%, 102.95%, and 14.2% of their nation's GDP represented by consumption. Things to think about are how does one country consume over 100% of its GDP and is this sustainable? Or, compared to other countries, why does is the Bahamas consumption component so low? Moving on to the second map, we take a look at government spending as a proportion of GDP. There is one significant outlier in this particular visualization the Bahamas government expenditure was 58.15% of GDP. How do we explain the low consumption as a percentage of GDP and a high expenditure of government as a percent of GDP in the Bahamas? In the third map, we look at investment as a percentage of GDP and should note that Haiti, the Dominican Republic, the Bahamas, Ecuador, and Jamaica all seems to be investing 25 to 30% of their GDP in capital goods. A question that I would ask is are those investments paying off relative to other countries? The last component that we look at is net exports as a percentage of GDP. The two countries that stand out to me as have intriguing proportions of net exports as a percent of GDP were Guyana and Haiti, which had portions of -45.18% and -41.52%, respectively. To me, the questions worth asking is how long can these nations continue to import so much more than they export especially at those proportions of GDP. A better way to visualize all of this is to use a stacked bar plot, which will allow up to quickly recognize the extreme values within this sample.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+GDP_LA_CAR <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/GDP_LA_CAR.csv')
+
+GDP_LA_CAR_CI_Plot <- plot_ly(GDP_LA_CAR, type='choropleth', locations=GDP_LA_CAR$Code, z=GDP_LA_CAR$Consumption, text=GDP_LA_CAR$Country, colorscale="Jet")
+GDP_LA_CAR_CI_Plot
+GDP_LA_CAR_GE_Plot <- plot_ly(GDP_LA_CAR, type='choropleth', locations=GDP_LA_CAR$Code, z=GDP_LA_CAR$Government, text=GDP_LA_CAR$Country, colorscale="Jet")
+GDP_LA_CAR_GE_Plot
+GDP_LA_CAR_I_Plot <- plot_ly(GDP_LA_CAR, type='choropleth', locations=GDP_LA_CAR$Code, z=GDP_LA_CAR$Investment, text=GDP_LA_CAR$Country, colorscale="Jet")
+GDP_LA_CAR_I_Plot
+GDP_LA_CAR_NE_Plot <- plot_ly(GDP_LA_CAR, type='choropleth', locations=GDP_LA_CAR$Code, z=GDP_LA_CAR$Net_Exports, text=GDP_LA_CAR$Country, colorscale="Jet")
+GDP_LA_CAR_NE_Plot
+
+GDP_LA_CAR_NE_Bar_Plot <- plot_ly(GDP_LA_CAR, x = ~Country, y = ~Consumption, type = "bar", name = "Consumption") %>% 
+  add_trace(y = ~Government, name = "Government Expenditure") %>% 
+  add_trace(y = ~Investment, name = "Investment") %>% 
+  add_trace(y = ~Net_Exports, name = "Net Exports") %>%  
+  layout(yaxis = list(title = "Percent of GDP"), barmode = "stack")
+GDP_LA_CAR_NE_Bar_Plot
+```
+
+### Discussion: What was going on in Guyana in 2019?
+
+When I initially looked at the Guyanese Net Export number the -45.18% of GDP number came as a shock to me and I thought that it was a negative signal about the strength of the economy, but like many other things, I found that my initial impression may not be accurate. We will see a bit later, in our section on Tax Rates and GDP Growth, that the Guyanese Economy experienced 43.48 percentage points of GDP growth in 2020—the question that flows naturally is whether the principles of economics are broken and how can a country that is importing way more than they are exporting experience GDP growth? To come up with a initial response, please visit the following website for yet another interesting visualization: https://oec.world/en/profile/country/guy. Interestingly, it looks as though the majority of the ships are imported from Liberia who in turn import the ships from China and Japan. This just illustrates how interconnected our world is (here are some notes on the treatment of intermediate goods: https://research.stlouisfed.org/publications/page1-econ/2018/09/04/how-do-imports-affect-gdp).
+
+### <span style="color:red">Deliverable 4: Gross Domestic Product<span style="color:red">
+
+For your project's deliverable for this section, you will be taking a look at the GDP in your particular country, but you also need to look at the components of GDP. I find that breaking the components of GDP using the expenditure approach (i.e., GDP = Consumption + Government Expenditure + Investment + Net Exports) and looking at each component as a proportion of GDP is an efficient way to do this. To obtain your data, you could visit the following website: https://data.imf.org/regular.aspx?key=61545852. Next, find a way to highlight something particular interesting about your country relative to comparable countries (i.e., whatever comparison you choose) and in a 1 to 2 minute video presentation highlight why this is interesting using visual cues. 
+
+### Discussion: Gini Coefficients
+
+Miller (2016) highlights differences between extremes in terms of economic systems. The two extremes are centralized/command and control versus the price system and he also introduces mixed economic systems, which are how all economic systems are formed or strctured (i.e., some mix of centralized and price systems). The structure of an economic system and all of the policies that are pursued within that system will undoubtably affect its economic performance and income/wealth distribution. Here are some thoughts about economic inequality in the US if you are interested in explorin the US further (https://www.pewresearch.org/fact-tank/2020/02/07/6-facts-about-economic-inequality-in-the-u-s/). One important proxy that we use to measure inequality a country is its Gini coefficient, to which we now turn. 
+
+The Gini Coefficient is not something that we cover specifically in this class, but it is an important metric that provides information about the distribution of income or wealth distribution in a particular region. Lamb (2012) provides a good discussion about this proxy and its limitations, if you are interested in reading more you will find the article here: https://www.scientificamerican.com/article/ask-gini/. In the example of Gini Coefficients that I calculated, I broke the wealth distribution up into deciles and calculated each country's Gini Coefficient by taking the area under the Lorenz curve (i.e., the Country curve in our first plot) and the 'Perfect Equality Lorenz' curve which is the easiest curve to identify as it is the curve that splits the 'square' in our plotted space into two perfect right triangles. The Gini Coefficient is obtained by subtracting the area under each country's Lorenz curve from the perfect equality curve; therefore, we obtain the area in between the country's curve and the perfect equality Lorenz (for a tutorial on how to calculate the Gini Coefficient, see the following YouTube video: https://www.youtube.com/watch?v=a5EEJMZKz9I). The resulting metric will provide a result that is in between 0, indicating that there is no inequality and the country's income wealth distribution is equal to that of the perfect Lorenz and 1, indicating that all of the income is held by the wealthiest individual in the country. Given that we used quantiles to estimate the wealth distribution for the countries and our perfect Lorenz the highest value that we would obtain in our estimates is .80. This would occur when all wealth is concentrated in the to 20% of the income/wealth distribution.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown) 
+library(plyr)
+
+Gini <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/Gini2.csv')
+head(Gini)
+
+Gini_plot_line <- plot_ly(data = Gini, type = 'scatter', mode = 'lines+markers', x = ~Expected, y = ~Actual, text = ~paste('</br> Country: ', Country), color = ~Country, colorscale="Jet")
+Gini_plot_line 
+
+Gini_2 <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/Gini3.csv')
+Gini_2$Country <- factor(Gini_2$Country, levels = unique(Gini_2$Country)[order(Gini_2$Gini_Index, decreasing = TRUE)])
+
+Gini_plot_bar <- plot_ly(Gini_2, type='bar', x=Gini_2$Gini_Index, y=Gini_2$Country, color=Gini_2$Country, colorscale="Jet")
+Gini_plot_bar 
+
+Gini_plot_choro  <- plot_ly(Gini, type='choropleth', locations=Gini$Code, z=Gini$Gini_Index, text=Gini$Country, colorscale="Jet")
+Gini_plot_choro
+```
+
+## Unit 4: The Business Cycle and Modelling
+
+### <span style="color:green">Videos Tutorial: Business Cycle<span style="color:green">
+
+After enjoying the soothing sounds of water falling in Bavaria, look up and you will see a video introduction associated with the business cycle. Although this video does not highlight the stages of the business cycle, it does provide you with some background from which you can connect human, intellectual, and physical capital to output or GDP. It also illustrates why the economy is cyclical; moreover, it relates output to unemployment and efficiency.  
+
+### Discussion: The Business Cycle
+
+In class we will learn about different theories that illustrate how an economy works and model interactions between short-run and long-run supply (production/output - Real GDP) and its relationship with aggregate demand. We will also explore the differences between the classical, traditional Keynesian, and modern Keynesian models of the economy. With that stated, at this point, it is useful to take historical account of GDP and to think about how changes in GDP effect and influence the lives of those within a particular country. 
+
+To begin, we are going to take a trip to Eastern Asia, but only look at the historical Per Capita GDP (in USD) of countries that had at least $10K in Per Capita GDP in 2019 that had data available from 1990 to 2019.The first series that I think is interesting to examine is Japan. In following few modules, we will begin to introduce fiscal and monetary policy tools that we could deploy to correct a recessionary or inflationary gap, but placing these cyclical patterns in context is useful before we begin to attempt to 'fix' them. Looking at the line plot that follows and isolating Japan, you should see a downward trend from 1995 to 2007 and within that general trend there were a few recessions, expansions, peaks, and troughs, but the overarching trend is downward sloping. Note too that what we are looking at is 'Per Capita' GDP, which is just a way to adjust the data to look at the population adjusted GDP as a comparative metric, but when we discuss GDP in class we are most likely talking about country-level GDP without this adjustment. 
+
+To provide some insights about comparisons and how an economist or someone that is interested in analysis might attempt to learn from patterns in the data it is typically important to look at inflection points or points at which two series began to diverge from one another. We typically do this when we are not able to intervene directly into an economy to change it (i.e., economists do not conduct 'experiments' on economies because that would lead to one nation receiving a particular 'treatment' and the other not, which would be unfair). So, in this example let's take a look at Macao, Singapore, and Japan. from 1990 to 2008, generally, the per capita GDP for both of these countries was less than that of Japan, but from 2008 to 2019 both of these countries per capita GDP was higher than that of Japan. We could use this as a starting point to ask more questions about the structure of these economies, political institutions, and other to attempt to draw conclusions about what may have caused these divergences (or, perhaps it was a result of random chance, but I doubt that!).
+
+Another interesting visual can be obtained by comparing China's per capita GDP from 1990 to 2019 to Japan's per capita GDP. Japan is an interesting comparison because they are a developed country and China is an emerging country. When you read about the economic growth in China, often economic reforms starting in the late 70s are often credited with it impressive growth over time (https://www.worldbank.org/en/country/china/overview), but the interesting and noteworthy thing that we forget at times is that China is still an emerging market economy. All of that historical growth and the per capita GDP in 2019 still sits around $10K, which is a far distance from developed countries as is evident by comparing China and Japan. Economists use data to explore the world around them and understand how changes to government, economic, and social standards and norms affect the production and growth of a particular nation, which undoubtably has an impact on the quality of life that its citizens experience.  
+
+Interestingly, when we put the data in motion, we begin to see different patterns that may not have been obvious using the 'static' visualizations. For example, if you move the slider from 1990 to 1997 there seems to be a positive relationship between per capita income and life expectancy, which makes sense (i.e., as we make more money, we live longer). From 1997 to 1998, this relationship diverges in this particular region. What happened? The generally positive relationship seems to reemerge after that point.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+PCAP_GDP_EAsia_Time <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/EAsia_10K.csv")
+head(PCAP_GDP_EAsia_Time)
+
+PCAP_GDP_EAsia_Time_plot <- plot_ly(data = PCAP_GDP_EAsia_Time, type = 'scatter', mode = 'lines+markers', x = ~Year, y = ~PCAP, text = ~Country, color = ~Country, colorscale="Jet")
+PCAP_GDP_EAsia_Time_plot
+
+PCAP_GDP_EAsia_Time_Scatter <- PCAP_GDP_EAsia_Time %>%
+  plot_ly(type = 'scatter', mode = 'markers',  x = ~PCAP, y = ~Life_Exp, size = ~Population, text = ~Country, color = ~Country, frame = ~Year, colorscale="Jet")
+
+PCAP_GDP_EAsia_Time_Scatter
+```
+
+### <span style="color:red">Deliverable 5: Phases of the Business Cycle<span style="color:red">
+
+For your deliverable for the business cycle, you should identify four economic events (i.e., either recessions or expansions) for your individual country and provide some historical content explaining what caused each event. In the accompanying ThinkLinks, I have provided my examples. The first is titled 'Two Recessions and an Expansion' (https://www.thinglink.com/scene/1450119861236662275) and the second provides the remaining recession and the reason for (https://www.thinglink.com/scene/1449881890998714371).
+
+## Unit 5: Fiscal Policy
+
+In this unit we will be discussing the two primary levers that governments have at their disposal which they may use to influence the economy; these levers are taxes and spending. Placing this in context, think about what recently happened as a result of the COVID-19 pandemic, the US Government spent a lot of money on multiple rounds of stimulus in attempts to minimize the risk of a longer-run recession or even a depression. So, when you think about the models that we are discussing in class, although they did not have the ‘data’ they could predict that we would (or were) experiencing a recessionary gap in output because everyone was unable to go to work and was stuck in quarantine. To stimulate spending as people were temporarily let go from their positions, the government provided people with stimulus to enable and encourage them to keep spending. In another somewhat recent news event, former President Trump decreased corporate taxes to incentivize companies to both produce their products in the US and repatriate earnings that were earned outside of the US. Taxes and spending are two levers that the US Government uses to attempt to intervene in markets when they believe that it is appropriate to do so.  
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+
+Tax_Rates_2019 <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Tax_Rates_2019.csv")
+head(Tax_Rates_2019)
+
+Tax_Rates_2019_Plot <- plot_ly(Tax_Rates_2019, type='choropleth', locations=Tax_Rates_2019$Code, z=Tax_Rates_2019$Average_Tax, text=Tax_Rates_2019$Country, colorscale="Jet")
+Tax_Rates_2019_Plot
+```
+
+### <span style="color:red">Deliverable 6: Fiscal Policy Interventions<span style="color:red">
+
+In this segment, your deliverable is to review fiscal policy interventions that your nation’s government has initiated in the past (i.e., changes in tax policy or spending) that had a significant effect on the economy. Indicate whether your country was experiencing a recessionary or inflationary gap when the government took action and whether the action corrected the problem. Your response to this segment should be a short video presentation (i.e., 1 to 2 minutes) that provides the context for the intervention, what the intervention was, and how effective it was. You should also provide any supporting visual illustrations in your response. Again, your deliverable should be embedded into your ThingLink. 
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+library(sqldf)
+
+Tax_Rates_GDP_Time <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Taxes_GDP.csv")
+
+Tax_Rates_GDP_Time_Americas <- sqldf('SELECT *
+                                      FROM Tax_Rates_GDP_Time
+                                      WHERE Region = "Americas"')
+
+Tax_Rates_GDP_Time_Asia <- sqldf('SELECT *
+FROM Tax_Rates_GDP_Time
+WHERE Region = "Asia"')
+
+
+Tax_GDP_Time_Scatter_Americas <- Tax_Rates_GDP_Time_Americas %>%
+  plot_ly(type = 'scatter', mode = 'markers', x = ~Tax_Rate, y = ~GDP_Growth, text = ~Country, color = ~Country, size = ~GDP, frame = ~Year, colorscale="Jet")
+
+Tax_GDP_Time_Scatter_Americas
+
+Tax_Rates_GDP_Time_Scatter_Asia <- Tax_Rates_GDP_Time_Asia %>%
+  plot_ly(type = 'scatter', mode = 'markers', x = ~Tax_Rate, y = ~GDP_Growth, text = ~Country, color = ~Country, size = ~GDP, frame = ~Year, colorscale="Jet")
+
+Tax_Rates_GDP_Time_Scatter_Asia
+```
+
+## Unit 6: Monetary Policy and Money
+
+The Federal Reserve (i.e., the Fed) operates as the nation’s central bank and implements monetary policy. Under the umbrella of ensuring economic stability, the three primary goals that Congress has assigned to the Fed are to maintain stable prices, maximize employment, and moderate long-term interest rates (https://www.federalreserve.gov/faqs/what-economic-goals-does-federal-reserve-seek-to-achieve-through-monetary-policy.htm). The Fed has several tools at its disposal to meet these objectives, some of which are: (a) to make changes to the required reserve ratio and the discount rate and (b) to engage in open market actions, which typically means engaging in purchasing or selling US Treasuries; honestly, there are some additional tools that the Fed uses to implement monetary policy, but we will focus on the most noted tools in standard textbooks, for additional tools please see the following web resource: https://www.federalreserve.gov/monetarypolicy/policytools.htm. In this segment, we will learn about how the Fed can engage in open market actions (buy or sell bonds), increase or decrease the discount rate, and increase or decrease the reserve ratio and think about how these changes are likely to affect the economy (i.e., close an inflationary or deflationary gap) and when the Fed should use these tools to do so.
+
+### Discussion: Is the US Dollar a 'fiat currency'?
+
+In a somewhat recent article, Greeley (2021) cited an aged 60 minutes interview of former Federal Reserve Chairman, Ben Bernanke and made an interesting claim about the nature of money; specifically, the US dollar. The title of the article (https://www.ft.com/content/5e5b2afb-c689-4faf-9b47-92c74fc07e66) tells an interesting story and one that highlights some of the differences between our classroom treatment of ‘money’ as a ‘fiat currency’ and what money is or how it is created. I remember making the distinction between who actually creates money in the following paper: https://onlinelibrary.wiley.com/doi/10.1111/1468-0106.12319. Money is inherently created throughout the economy by banks that issue credit and the central bank has some control over how much credit is available in the financial system as they determine the reserve requirements and the fed funds rate. The reason why we refer to the US Dollar as a ‘fiat currency’ is that its value is derived from the belief that we have in our financial institutions and our economy to maintain its value; whether money is created through credit or by the FED or by banks is not totally relevant for our discussions in this course, but there are always opportunities to gain a deeper understanding of the nature of all things as the previous article highlights and a response to that article illustrates: https://www.forbes.com/sites/rhockett/2021/07/04/all-money-is-fiat-money-most-money-is-credit-money/?sh=1b9bd64e36c9. 
+
+### <span style="color:red">Deliverable 7: Monetary Policy Interventions or The History of Money<span style="color:red">
+
+In this segment, your deliverable is to review monetary policy interventions that your nation’s government has initiated in the past (i.e., changes in the interest rate, open market actions, changes in the reserve ratio, or others) or examine the history of money for your particular country. If you choose monetary policy actions, Indicate whether your country was experiencing a recessionary or inflationary gap when the government took action and whether the action corrected the problem. If you choose to discuss the history of your country’s local currency, make sure to provide enough context to make your presentation interesting. Your response to this segment should be a short video presentation (i.e., 1 to 2 minutes) that provides the context for the intervention, what the intervention was, and how effective it was or a story related to the history of money in your country. You should also provide any supporting visual illustrations in your response. Again, your deliverable should be embedded into your ThingLink.
+
+## Unit 7: Globalization and Free Trade
+
+In our section about globalization and free trade, you will be introduced to two very important topics as it relates to globalization, which are the ideas of comparative and absolute advantage. The main takeaway from this discussion is likely to be that countries specialize from specializing in producing goods/services in which they have a lower opportunity cost relative to others. Moreover, through specialization and trade more production is globally available for consumption; so, everyone wins with free trade. This is what we will focus on in the ‘textbook’ discussions in class, we will also consider some reasons why nations may restrict free trade (i.e., to protect against dumping and foreign subsidies, the infant industry argument, and to protect US jobs).  There is an interesting twist to this general theory because through trade and specializing in what each country is comparatively better at producing, everyone does benefit, but historically some segments have benefited more than others; hence, I will introduce the ‘elephant’ and the ‘lock ness monster’ curves. 
+
+### Discussion: The Elephant (or Loch Ness Monster) Curve
+
+Did you know that historically, the world’s bottom 50% of the income distribution before tax makes in between 6 and 9% of the global income before tax? Focusing more specifically, on the US in 2019 you would have had to make at least $143,749.30 to be included in the top decile of earners and $29,146.40 to be included in the top 50% of earners. When we look at the disparity in the wealth distribution in the US in the 1960s the bottom 50% of the population had just a little over 2% of the wealth, but in 2019 they have under 2% of the wealth. When I think about globalization and free trade, I typically think back to this graphical rendition of this graph that depicts real income growth in percentage terms on the y-axis and income group on the x-axis. The initial rendition of the curve can be found here: https://www.imf.org/external/pubs/ft/fandd/2019/03/profile-of-branko-milanovic-on-inequality-wellisz.htm. Note, that the original study used data from 1998 to 2008 and what it illustrated was that the segments of the global population that benefited from global growth the most from 1988 to 2008 were the global middle class (i.e., East Asia – China, South Asia – India, and some parts of Africa) and the ultrarich, which are mainly located in European and American Countries; however, the poorest and those in the 80 to 90% decile seem to not have benefited much from globalization and there is some debate over who is included in that 80 to 90% decile—is it Japan or people from the lower and middle class in the US (see the following link for my favorite elephant curve: https://www.vox.com/policy-and-politics/2018/2/2/16868838/elephant-graph-chart-global-inequality-economic-growth)? According to Matthews (2018) a team of researchers including some prominent economists extended the original study recently and found a more disturbing picture—the elephant has turned into what resembles a Loch Ness monster (see the previous hyperlink for an artist’s rendition)!  There is some improvement in lifting people out of poverty across the globe, but for the 50 to 90 percentile group, not much is happening and the top 1% is taking home the lion’s share of the benefits accruing to the world from globalization. 
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(sqldf)
+library(plotly)
+Global_Income <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/Global_Income_Distribution.csv')
+
+Global_Income_Plot <- plot_ly(Global_Income, x = ~Year, y = ~Decile_1, name = 'Decile 1', type = 'scatter', mode = 'none', stackgroup = 'one')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_2, name = 'Decile 2')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_3, name = 'Decile 3')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_4, name = 'Decile 4')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_5, name = 'Decile 5')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_6, name = 'Decile 6')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_7, name = 'Decile 7')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_8, name = 'Decile 8')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_9, name = 'Decile 9')
+Global_Income_Plot <- Global_Income_Plot %>% add_trace(y = ~Decile_10, name = 'Decile 10')
+Global_Income_Plot <- Global_Income_Plot %>% layout(title = 'Global Income Before Tax From 1980 to 2019', yaxis = list(title = "Cumulative Percentage"))
+Global_Income_Plot
+
+US_Wealth <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/US_Wealth_Decile.csv')
+
+US_Wealth_Plot <- plot_ly(US_Wealth, x = ~Year, y = ~Decile_1, name = 'Decile 1', type = 'scatter', mode = 'none', stackgroup = 'one')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_2, name = 'Decile 2')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_3, name = 'Decile 3')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_4, name = 'Decile 4')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_5, name = 'Decile 5')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_6, name = 'Decile 6')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_7, name = 'Decile 7')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_8, name = 'Decile 8')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_9, name = 'Decile 9')
+US_Wealth_Plot <- US_Wealth_Plot %>% add_trace(y = ~Decile_10, name = 'Decile 10')
+US_Wealth_Plot <- US_Wealth_Plot %>% layout(title = 'US Wealth Distribution From 1962 to 2019', yaxis = list(title = "Cumulative Percentage"))
+US_Wealth_Plot
+
+US_Income_Threshold <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/US_Income_Threshold.csv')
+
+US_Income_Threshold_Plot <- plot_ly(US_Income_Threshold, x = ~Year, y = ~Decile_1, name = 'Decile 1', type = 'scatter', mode = 'none', stackgroup = 'one')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_2, name = 'Decile 2')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_3, name = 'Decile 3')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_4, name = 'Decile 4')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_5, name = 'Decile 5')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_6, name = 'Decile 6')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_7, name = 'Decile 7')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_8, name = 'Decile 8')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_9, name = 'Decile 9')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% add_trace(y = ~Decile_10, name = 'Decile 10')
+US_Income_Threshold_Plot <- US_Income_Threshold_Plot %>% layout(title = 'US Income Distribution by Threshold Levels From 1966 to 2019', yaxis = list(title = "Threshold Levels"))
+US_Income_Threshold_Plot
+
+```
+
+### <span style="color:red">Deliverable 8: Globalization and Free Trade<span style="color:red">
+
+For this section, your deliverable will be to either highlight how globalization has impacted your country, identify some noteworthy trade partners/arrangements and their effect on your economy, or use the general sentiment behind the ‘Elephant’ and ‘Loch Ness Monster’ curves and indicate where your country lays on this curve. Make sure to provide enough context to make your presentation interesting and your response to this segment should be a short video presentation (i.e., 1 to 2 minutes) including any accompanying visualizations. 
+
+## Unit 8: Balance of Payments and Exchange Rates
+
+### Discussion: Exchange Rates
+
+The following plot illustrates the relationship between a number of currencies relative to the US Dollar (USD) from 2000 to 2020. To me, illustrations like this may provide us with a better understanding of the relationship between two currencies than simply looking at the supply and demand relationships. For example, if you select the Singapore Dollar and compare it against the USD what do you see? If you see what I see you should notice a downward trend in the exchange rate between the Singapore Dollar and the USD. For example, in the year 2000, it cost 1.73 Singapore Dollars for 1 USD and more recently it costs 1.34 Singapore Dollars for 1 USD. So, from 2000 to 2020 the value of the Singapore Dollar has strengthened as compared to the USD. Now, it is your turn to illustrate what is happening between two other currencies, take the Mexican Peso and the Swiss Franc and indicate what has happened to their respective currencies over this time relative to the USD and what that may imply. 
+
+### Discussion: BOP – The Tale of Two Countries
+
+In the dot chart below, I have provided a comparison of all of the countries that had data available on their current and capital accounts (i.e., Investment) as/of 2018 (I used 2018 because several countries hadn’t provided their 2019 or 2020 BOP estimates when writing this). As you can likely see, there is a positive relationship between the country-level balance on the Current Account and the Capital Account. This implies that any deficit (surplus) in the Current Account is offset by a deficit (surplus) in the Capital Account, all else equal. Miller [(2016) or the current edition of the textbook] illustrates this in Table 33-2, lines 13 and 14, using the US’s current account deficit as an example, by making adjustments to the capital account, which are primarily funded by foreign inflows of capital into US dollar-denominated assets (i.e., line item 14). Note, according to the IMF (2010) a current account balance is equal to the gap between savings and investment in a particular country. Let’s take a look at the two extreme outliers in our sample, which are the US and Germany. Germany has a current account surplus and the US has a current account deficit, which is better?  
+
+Reference: 
+
+IMF (2010). Chapter 14 Selected Issues in Balance of Payments and International Investment Position Analysis. In Balance of Payments Manual, Sixth Edition. USA: International Monetary Fund. Retrieved Jul 26, 2021, from https://www.elibrary.imf.org/view/books/069/09838-9781589068124-en/ch14.xml
+
+*Footnote: Starting with Gross Domestic Product (GDP) = C + G + I + X – M (1), we can define Gross National Disposable Income (GNDY) as GDP + BPI (Balance on Primary Income) + BSI (Balance on Secondary Income) (2). Moreover, the Current Account Balance (CAB) = X – M + BPI + BSI (3). From equations 1, 2, and 3, we can illustrate that the CAB is GNDY – C – G – I (4) or GNDY = C + G + I + CAB (5). Additionally, Savings (S) = GNDY – C – G (6) and S = I + CAB (7) or S – I = CAB (8). Thus, according to the IMF (2010), the CAB “is the gap between saving and investment” (p. 223).*
+
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+
+library(plotly)
+library(rmarkdown)
+Exchange_Rates_Time <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Exchange_Rates.csv")
+
+PCAP_GDP_EAsia_Time_plot <- plot_ly(data = Exchange_Rates_Time, type = 'scatter', mode = 'lines+markers', x = ~Year, y = ~Exchange_Rate, text = ~Currency, color = ~Currency, colorscale="Jet")
+
+PCAP_GDP_EAsia_Time_plot
+
+BOP_2018 <- read.csv('https://raw.githubusercontent.com/Prof-Smith/Macro/main/BOP.csv')
+
+BOP_2018_Plot <- plot_ly(data=BOP_2018, x = ~Current, y = ~Financial, text= ~Country, color=~Country, type="scatter") 
+BOP_2018_Plot 
+```
+
+### <span style="color:red">Deliverable 9: Balance of Payments and Exchange Rates<span style="color:red">
+
+For this section’s deliverable, choose to highlight an interesting finding from either your analysis of your country’s exchange rate history or its balance of payments history. There are several things that you could do to highlight changes in the exchange rates, but the easiest comparison is to use the US dollar as the base currency and discuss the overall movement of your country’s currency in terms of its exchange rate with the US Dollar. If you decided to highlight the Balance of Payments (BOP), the first thing that you would likely highlight is whether your country is has a current account balance deficit or surplus, this will help to build a base for your discussion, but don’t stop there. Highlight something particularly interesting that is going on within the BOP. Make sure to provide enough context to make your presentation interesting and your response to this segment should be a short video presentation (i.e., 1 to 2 minutes) including any accompanying visualizations.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(plotly)
+library(rmarkdown)
+
+Remittance_Percent_GDP <- read.csv("https://raw.githubusercontent.com/Prof-Smith/Macro/main/Remittance.csv")
+Remittance_Percent_GDP_2019_Plot <- plot_ly(Remittance_Percent_GDP, type='choropleth', locations=Remittance_Percent_GDP$Code, z=Remittance_Percent_GDP$Remittance_Percent_GDP_2019, text=Remittance_Percent_GDP$Country, colorscale="Jet")
+Remittance_Percent_GDP_2019_Plot <- Remittance_Percent_GDP_2019_Plot %>% layout(title = 'Personal Remittances as a Percentage of GDP in 2019')
+Remittance_Percent_GDP_2019_Plot
+```
