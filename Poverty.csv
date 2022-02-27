@@ -1,0 +1,109 @@
+Country,Year,Below_Poverty,Age,Sex,Code,Region,Sub_Region
+Albania,2018,0.3,15+,BOTHSEX,ALB,Europe,Southern Europe
+Algeria,2018,0.1,15+,BOTHSEX,DZA,Africa,Northern Africa
+Angola,2018,47.1,15+,BOTHSEX,AGO,Africa,Sub-Saharan Africa
+Armenia,2018,0.4,15+,BOTHSEX,ARM,Asia,Western Asia
+Bangladesh,2018,6.5,15+,BOTHSEX,BGD,Asia,Southern Asia
+Belarus,2018,0.1,15+,BOTHSEX,BLR,Europe,Eastern Europe
+Belize,2018,10.4,15+,BOTHSEX,BLZ,Americas,Latin America and the Caribbean
+Benin,2018,40.5,15+,BOTHSEX,BEN,Africa,Sub-Saharan Africa
+Bhutan,2018,0.9,15+,BOTHSEX,BTN,Asia,Southern Asia
+Bolivia,2018,5.3,15+,BOTHSEX,BOL,Americas,Latin America and the Caribbean
+Bosnia and Herzegovina,2018,0,15+,BOTHSEX,BIH,Europe,Southern Europe
+Botswana,2018,9.3,15+,BOTHSEX,BWA,Africa,Sub-Saharan Africa
+Brazil,2018,1.8,15+,BOTHSEX,BRA,Americas,Latin America and the Caribbean
+Burkina Faso,2018,32.2,15+,BOTHSEX,BFA,Africa,Sub-Saharan Africa
+Burundi,2018,77.2,15+,BOTHSEX,BDI,Africa,Sub-Saharan Africa
+Cabo Verde,2018,1,15+,BOTHSEX,CPV,Africa,Sub-Saharan Africa
+Cameroon,2018,20.1,15+,BOTHSEX,CMR,Africa,Sub-Saharan Africa
+Chad,2018,40,15+,BOTHSEX,TCD,Africa,Sub-Saharan Africa
+Chile,2018,0.1,15+,BOTHSEX,CHL,Americas,Latin America and the Caribbean
+China,2018,0.3,15+,BOTHSEX,CHN,Asia,Eastern Asia
+Colombia,2018,2.1,15+,BOTHSEX,COL,Americas,Latin America and the Caribbean
+Comoros,2018,14,15+,BOTHSEX,COM,Africa,Sub-Saharan Africa
+Congo,2018,40.3,15+,BOTHSEX,COG,Africa,Sub-Saharan Africa
+Costa Rica,2018,0.4,15+,BOTHSEX,CRI,Americas,Latin America and the Caribbean
+C�te d'Ivoire,2018,21.5,15+,BOTHSEX,CIV,Africa,Sub-Saharan Africa
+Congo,2018,67.8,15+,BOTHSEX,COG,Africa,Sub-Saharan Africa
+Dominican Republic,2018,0.3,15+,BOTHSEX,DOM,Americas,Latin America and the Caribbean
+Ecuador,2018,3.9,15+,BOTHSEX,ECU,Americas,Latin America and the Caribbean
+Egypt,2018,2.2,15+,BOTHSEX,EGY,Africa,Northern Africa
+El Salvador,2018,0.4,15+,BOTHSEX,SLV,Americas,Latin America and the Caribbean
+Eswatini,2018,21.6,15+,BOTHSEX,SWZ,Africa,Sub-Saharan Africa
+Ethiopia,2018,22.6,15+,BOTHSEX,ETH,Africa,Sub-Saharan Africa
+Fiji,2018,0.1,15+,BOTHSEX,FJI,Oceania,Melanesia
+Gabon,2018,1.9,15+,BOTHSEX,GAB,Africa,Sub-Saharan Africa
+Gambia,2018,7.9,15+,BOTHSEX,GMB,Africa,Sub-Saharan Africa
+Georgia,2018,3.4,15+,BOTHSEX,GEO,Asia,Western Asia
+Ghana,2018,8.7,15+,BOTHSEX,GHA,Africa,Sub-Saharan Africa
+Guatemala,2018,3.7,15+,BOTHSEX,GTM,Americas,Latin America and the Caribbean
+Guinea,2018,26.7,15+,BOTHSEX,GIN,Africa,Sub-Saharan Africa
+Guinea-Bissau,2018,60.1,15+,BOTHSEX,GNB,Africa,Sub-Saharan Africa
+Guyana,2018,2.1,15+,BOTHSEX,GUY,Americas,Latin America and the Caribbean
+Haiti,2018,22.9,15+,BOTHSEX,HTI,Americas,Latin America and the Caribbean
+Honduras,2018,13.4,15+,BOTHSEX,HND,Americas,Latin America and the Caribbean
+India,2018,8.4,15+,BOTHSEX,IND,Asia,Southern Asia
+Indonesia,2018,4,15+,BOTHSEX,IDN,Asia,South-eastern Asia
+Iran,2018,0.1,15+,BOTHSEX,IRN,Asia,Southern Asia
+Iraq,2018,0.4,15+,BOTHSEX,IRQ,Asia,Western Asia
+Jamaica,2018,0.8,15+,BOTHSEX,JAM,Americas,Latin America and the Caribbean
+Jordan,2018,0.2,15+,BOTHSEX,JOR,Asia,Western Asia
+Kazakhstan,2018,0,15+,BOTHSEX,KAZ,Asia,Central Asia
+Kenya,2018,28,15+,BOTHSEX,KEN,Africa,Sub-Saharan Africa
+Kyrgyzstan,2018,0.2,15+,BOTHSEX,KGZ,Asia,Central Asia
+Laos,2018,8.8,15+,BOTHSEX,LAO,Asia,South-eastern Asia
+Lebanon,2018,0.1,15+,BOTHSEX,LBN,Asia,Western Asia
+Lesotho,2018,17.4,15+,BOTHSEX,LSO,Africa,Sub-Saharan Africa
+Liberia,2018,45.1,15+,BOTHSEX,LBR,Africa,Sub-Saharan Africa
+Madagascar,2018,72.9,15+,BOTHSEX,MDG,Africa,Sub-Saharan Africa
+Malawi,2018,66.3,15+,BOTHSEX,MWI,Africa,Sub-Saharan Africa
+Malaysia,2018,0,15+,BOTHSEX,MYS,Asia,South-eastern Asia
+Maldives,2018,0.1,15+,BOTHSEX,MDV,Asia,Southern Asia
+Mali,2018,43.1,15+,BOTHSEX,MLI,Africa,Sub-Saharan Africa
+Mauritania,2018,3.9,15+,BOTHSEX,MRT,Africa,Sub-Saharan Africa
+Mauritius,2018,0.1,15+,BOTHSEX,MUS,Africa,Sub-Saharan Africa
+Mongolia,2018,0.1,15+,BOTHSEX,MNG,Asia,Eastern Asia
+Morocco,2018,0.3,15+,BOTHSEX,MAR,Africa,Northern Africa
+Mozambique,2018,58.4,15+,BOTHSEX,MOZ,Africa,Sub-Saharan Africa
+Myanmar,2018,1.2,15+,BOTHSEX,MMR,Asia,South-eastern Asia
+Namibia,2018,9.2,15+,BOTHSEX,NAM,Africa,Sub-Saharan Africa
+Nepal,2018,5,15+,BOTHSEX,NPL,Asia,Southern Asia
+Niger,2018,39.9,15+,BOTHSEX,NER,Africa,Sub-Saharan Africa
+Nigeria,2018,33.5,15+,BOTHSEX,NGA,Africa,Sub-Saharan Africa
+Pakistan,2018,1.3,15+,BOTHSEX,PAK,Asia,Southern Asia
+Panama,2018,0.5,15+,BOTHSEX,PAN,Americas,Latin America and the Caribbean
+Papua New Guinea,2018,23.9,15+,BOTHSEX,PNG,Oceania,Melanesia
+Paraguay,2018,0.4,15+,BOTHSEX,PRY,Americas,Latin America and the Caribbean
+Peru,2018,3.2,15+,BOTHSEX,PER,Americas,Latin America and the Caribbean
+Philippines,2018,2.6,15+,BOTHSEX,PHL,Asia,South-eastern Asia
+Korea,2018,0,15+,BOTHSEX,KOR,Asia,Eastern Asia
+Moldova,2018,0,15+,BOTHSEX,MDA,Europe,Eastern Europe
+Russia,2018,0,15+,BOTHSEX,RUS,Europe,Eastern Europe
+Rwanda,2018,48.1,15+,BOTHSEX,RWA,Africa,Sub-Saharan Africa
+Senegal,2018,29.9,15+,BOTHSEX,SEN,Africa,Sub-Saharan Africa
+Serbia,2018,0,15+,BOTHSEX,SRB,Europe,Southern Europe
+Sierra Leone,2018,44,15+,BOTHSEX,SLE,Africa,Sub-Saharan Africa
+Solomon Islands,2018,21.6,15+,BOTHSEX,SLB,Oceania,Melanesia
+South Africa,2018,6.3,15+,BOTHSEX,ZAF,Africa,Sub-Saharan Africa
+Sri Lanka,2018,0.5,15+,BOTHSEX,LKA,Asia,Southern Asia
+Palestine,2018,0.3,15+,BOTHSEX,PSE,Asia,Western Asia
+Sudan,2018,8,15+,BOTHSEX,SDN,Africa,Northern Africa
+Suriname,2018,13.9,15+,BOTHSEX,SUR,Americas,Latin America and the Caribbean
+Syria,2018,36.1,15+,BOTHSEX,SYR,Asia,Western Asia
+Tajikistan,2018,2.1,15+,BOTHSEX,TJK,Asia,Central Asia
+Thailand,2018,0,15+,BOTHSEX,THA,Asia,South-eastern Asia
+Timor-Leste,2018,17.2,15+,BOTHSEX,TLS,Asia,South-eastern Asia
+Togo,2018,38.5,15+,BOTHSEX,TGO,Africa,Sub-Saharan Africa
+Trinidad and Tobago,2018,0.1,15+,BOTHSEX,TTO,Americas,Latin America and the Caribbean
+Tunisia,2018,0.1,15+,BOTHSEX,TUN,Africa,Northern Africa
+Turkey,2018,0,15+,BOTHSEX,TUR,Asia,Western Asia
+Turkmenistan,2018,0.3,15+,BOTHSEX,TKM,Asia,Central Asia
+Uganda,2018,36.2,15+,BOTHSEX,UGA,Africa,Sub-Saharan Africa
+Ukraine,2018,0,15+,BOTHSEX,UKR,Europe,Eastern Europe
+Tanzania,2018,44.8,15+,BOTHSEX,TZA,Africa,Sub-Saharan Africa
+Uruguay,2018,0,15+,BOTHSEX,URY,Americas,Latin America and the Caribbean
+Uzbekistan,2018,8.5,15+,BOTHSEX,UZB,Asia,Central Asia
+Vietnam,2018,2.2,15+,BOTHSEX,VNM,Asia,South-eastern Asia
+Yemen,2018,43.1,15+,BOTHSEX,YEM,Asia,Western Asia
+Zambia,2018,53.8,15+,BOTHSEX,ZMB,Africa,Sub-Saharan Africa
+Zimbabwe,2018,27.8,15+,BOTHSEX,ZWE,Africa,Sub-Saharan Africa
